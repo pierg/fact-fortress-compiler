@@ -3,14 +3,13 @@ global D1_SHAPE: [u8; 2] = [2, 1];
 
 global D2_SIZE: Field = 2;
 global D2_SHAPE: [u8; 2] = [2, 1];
-global D2_PRECISION: u4 = 1;
 
 global DATA_SIZE: Field = 4;
 
 struct Data {
-    // Sample data description 1
+    // Genome sequence of individuals from Clinic A
     d1: [u8; 2],
-    // Sample data description 2
+    // Genome sequence of individuals from Clinic B
     d2: [u8; 2],
 }
 

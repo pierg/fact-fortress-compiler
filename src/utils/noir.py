@@ -1,6 +1,6 @@
 from pathlib import Path
 import os
-from .my_io import save_dict_to_toml
+from .my_io import save_dict_to_json, save_dict_to_toml
 
 
 def generate_noir_files(config: dict, data_signature: list[int], data_hash: list[int], circuit_path: Path):
@@ -8,6 +8,23 @@ def generate_noir_files(config: dict, data_signature: list[int], data_hash: list
     generate_input_file(config, data_signature, data_hash, circuit_path)
     generate_data_file(config, circuit_path)
     generate_main_file(config, circuit_path)
+    generate_info_file(config, circuit_path)
+
+
+def generate_info_file(config: dict, circuit_path: Path):
+    # extract relevant information
+    function_name = config["name"]
+    function_description = config["description"]
+    data = []
+    for data_key, data_value in config["data"].items():
+        data.append(
+            {"name": data_value["name"], "description": data_value["description"], "provider": data_value["provider"]}
+        )
+
+    # create output JSON object
+    output_data = {"function": {"name": function_name, "description": function_description}, "data": data}
+
+    save_dict_to_json(output_data, circuit_path / "info.json")
 
 
 def generate_project(config: dict, circuit_path: Path):
@@ -46,8 +63,8 @@ def generate_input_file(config: dict, data_signature: list[int], data_hash: list
     noir_data = {
         "public": {
             "keys": {
-                "pub_key_x": config["keys"]["pub_key_x"],
-                "pub_key_y": config["keys"]["pub_key_y"],
+                "pub_key_x": config["authorities"]["auth_1"]["pub_key_x"],
+                "pub_key_y": config["authorities"]["auth_1"]["pub_key_y"],
             },
             "statement": {"value": config["statement"]},
         },

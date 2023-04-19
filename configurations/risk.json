@@ -1,22 +1,27 @@
 {
     "name": "risk",
     "description": "computes the average risk scores of a population",
-    "keys": {
-        "pub_key_x": "0x2fa1db3a9188e138ce86d4b3eb2d0bf2a52ccec0a41d549a34b71669aa5d8d46",
-        "pub_key_y": "0x093c5ae46d29358e53375e1478f09eb2c50403d83b2f502250090ebc61b1dcf0",
-        "private_key": "e6242147fac0509dbe730a7969d7e0b875b60ee28709d457a868f88c84c4275a"
+    "statement": 32,
+    "authorities": {
+        "auth_1": {
+            "name": "Hospital_A",
+            "pub_key_x": "0x007d94830317650b309edc77e0666cb00f82463c23422462ede57afef54cecb2",
+            "pub_key_y": "0x2116129fab50bdeec438cb849a2fb4b92020661b3fb85b562bc4d336f9697f2d",
+            "private_key": "3b03603c7063904959b65b147b793517bbf9ee5f0fe2474061d8d3edad84282e"
+        }
     },
-    "statement": 10,
     "data": {
         "d1": {
-            "description": "Alleles of individuals",
+            "name": "Alleles_HA",
+            "description": "Alleles of individuals from Hospital A",
+            "provider": "Hospital_A",
             "values": [
                 0,
-                0,
-                0,
-                0,
+                2,
+                2,
+                2,
                 1,
-                2
+                1
             ],
             "type": "int",
             "format": "u8",
@@ -26,11 +31,13 @@
             ]
         },
         "d2": {
-            "description": "Beta values",
+            "name": "Beta_HA",
+            "description": "Beta values of heart conditions from Hospital A",
+            "provider": "Hospital_A",
             "values": [
-                17,
-                16,
-                2
+                4,
+                5,
+                13
             ],
             "type": "double",
             "precision": 1,

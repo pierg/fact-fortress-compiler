@@ -26,7 +26,7 @@ def generate_circuit(config: dict):
     data_hash_int, data_hash_hex = get_hash_simple(data_list)
 
     # Sign private_data
-    data_signature = sign("".join(data_hash_hex), config["keys"]["private_key"])
+    data_signature = sign("".join(data_hash_hex), config["authorities"]["auth_1"]["private_key"])
 
     print("generating")
     generate_noir_files(

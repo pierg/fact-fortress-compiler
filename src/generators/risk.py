@@ -1,11 +1,15 @@
-from utils.sign import gen_key_pairs
 from utils.generate_configs import generate_configuration_json
 import numpy as np
-import codecs
+from utils.authorities import generate_authority
 
 
 def generate_risk(name: str):
     # This script generates the data for the risk score function
+
+    authorities = []
+
+    new_authority = generate_authority("Hospital_A")
+    authorities.append(new_authority)
 
     N_POSITIONS = 3  # number of positions in each individual's array
     N_INDIVIDUALS = 2  # number of individuals in the list
@@ -36,14 +40,18 @@ def generate_risk(name: str):
     # example usage
     data = [
         {
-            "description": "Alleles of individuals",
+            "name": "Alleles_HA",
+            "description": "Alleles of individuals from Hospital A",
+            "provider": "Hospital_A",
             "values": individuals_int,
             "type": "int",
             "format": "u8",
             "shape": [N_POSITIONS, N_INDIVIDUALS],
         },
         {
-            "description": "Beta values",
+            "name": "Beta_HA",
+            "description": "Beta values of heart conditions from Hospital A",
+            "provider": "Hospital_A",
             "values": betas_int,
             "type": "double",
             "precision": PRECISION,
@@ -52,20 +60,10 @@ def generate_risk(name: str):
         },
     ]
 
-    # Generate key-pairs
-    priv_key, pub_key = gen_key_pairs()
-
-    # Convert the public key into its `x` and `y` points
-    pub_key_bytes = codecs.decode(pub_key[2:], "hex_codec")
-    pub_key_x = "0x" + "".join("{:02x}".format(x) for x in pub_key_bytes[0:32])
-    pub_key_y = "0x" + "".join("{:02x}".format(x) for x in pub_key_bytes[32:64])
-
     generate_configuration_json(
         name=name,
         description="computes the average risk scores of a population",
-        pub_key_x=pub_key_x,
-        pub_key_y=pub_key_y,
-        private_key=priv_key,
+        authorities=authorities,
         statement=result,
         data=data,
     )

@@ -1,23 +1,34 @@
 from utils.sign import gen_key_pairs
 from utils.generate_configs import generate_configuration_json
+from utils.authorities import generate_authority
 import numpy as np
 import codecs
 
 
 def generate_simple(name: str):
+    authorities = []
+
+    new_authority = generate_authority("Provider_A")
+
+    authorities.append(new_authority)
+
     data_1 = [1, 2]
     data_2 = [3, 4]
 
     data = [
         {
-            "description": "Sample data 1",
+            "name": "data_A_1",
+            "description": "Sample data description 1",
+            "provider": "Provider_A",
             "values": data_1,
             "type": "int",
             "format": "u8",
             "shape": [2, 1],
         },
         {
-            "description": "Sample data 2",
+            "name": "data_A_2",
+            "description": "Sample data description 2",
+            "provider": "Provider_A",
             "values": data_2,
             "type": "double",
             "precision": 1,
@@ -26,20 +37,10 @@ def generate_simple(name: str):
         },
     ]
 
-    # Generate key-pairs
-    priv_key, pub_key = gen_key_pairs()
-
-    # Convert the public key into its `x` and `y` points
-    pub_key_bytes = codecs.decode(pub_key[2:], "hex_codec")
-    pub_key_x = "0x" + "".join("{:02x}".format(x) for x in pub_key_bytes[0:32])
-    pub_key_y = "0x" + "".join("{:02x}".format(x) for x in pub_key_bytes[32:64])
-
     generate_configuration_json(
         name=name,
         description="simple example",
-        pub_key_x=pub_key_x,
-        pub_key_y=pub_key_y,
-        private_key=priv_key,
+        authorities=authorities,
         statement=0,
         data=data,
     )

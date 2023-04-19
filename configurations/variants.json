@@ -1,0 +1,51 @@
+{
+    "name": "variants",
+    "description": "computes the average risk scores of a population",
+    "statement": 10,
+    "authorities": {
+        "auth_1": {
+            "name": "Clinic_A",
+            "pub_key_x": "0x2efd4986805268aae57352526ab5a11d3409355a60b4c7fb59cf1d0d2431cb4b",
+            "pub_key_y": "0x04fcc0f4e87e0f3f1d03426a3249ec5304cc6b02892359ee7dfe851ea725aa94",
+            "private_key": "ab90279abf2ea17f57e62e5294b047f2dfae176e33feffbd2e5da4a22fe7f901"
+        },
+        "auth_2": {
+            "name": "Clinic_B",
+            "pub_key_x": "0x0b0c08e5dcf2f7ab85617c1e93115e3715c840cbe883cf91e2f3a73f839989aa",
+            "pub_key_y": "0x1c93004b33abc979fea2b38d84ac27f5200b19c778b167e9f0086a56840c5b99",
+            "private_key": "eb2e9cd821fff18e80f42d86dd94dc9c8507fb4e98a993408c2dab5c73e3a340"
+        }
+    },
+    "data": {
+        "d1": {
+            "name": "Genome_individuals_CA",
+            "description": "Genome sequence of individuals from Clinic A",
+            "provider": "Clinic_A",
+            "values": [
+                0,
+                2
+            ],
+            "type": "int",
+            "format": "u8",
+            "shape": [
+                2,
+                1
+            ]
+        },
+        "d2": {
+            "name": "Genome_individuals_CB",
+            "description": "Genome sequence of individuals from Clinic B",
+            "provider": "Clinic_B",
+            "values": [
+                3,
+                1
+            ],
+            "type": "int",
+            "format": "u8",
+            "shape": [
+                2,
+                1
+            ]
+        }
+    }
+}

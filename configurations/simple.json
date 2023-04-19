@@ -1,15 +1,20 @@
 {
     "name": "simple",
     "description": "simple example",
-    "keys": {
-        "pub_key_x": "0x009ffc9e52b773bd2de0a9a178d26e1c7909e03c9752e8ce34f69a120a266ff6",
-        "pub_key_y": "0x195574d40a77220b60e746346105c0cb861f8bd5d9ec84b5bdd174dabf1455c0",
-        "private_key": "babfcbff15ed5b231b109ae6bd4893e25ce402964d87d71f80d2704332b8c63a"
-    },
     "statement": 0,
+    "authorities": {
+        "auth_1": {
+            "name": "Provider_A",
+            "pub_key_x": "0x256fe4e2c00ece9760cf19b642a3729dfac6ff06fd2daae7b306e7046640be74",
+            "pub_key_y": "0x23adf828ab7b09c65a6b34aa54781b4d2a25051d8c5d9a5440f8a98a7a01b607",
+            "private_key": "06a8c36486a518e0c717878b289ffa0d5425c2b73f93b89146c1c425f8d07a14"
+        }
+    },
     "data": {
         "d1": {
-            "description": "Sample data 1",
+            "name": "data_A_1",
+            "description": "Sample data description 1",
+            "provider": "Provider_A",
             "values": [
                 1,
                 2
@@ -22,7 +27,9 @@
             ]
         },
         "d2": {
-            "description": "Sample data 2",
+            "name": "data_A_2",
+            "description": "Sample data description 2",
+            "provider": "Provider_A",
             "values": [
                 3,
                 4
