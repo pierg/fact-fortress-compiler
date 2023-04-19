@@ -1,0 +1,10 @@
+##############################
+#	Computes the risk score of a group of people
+##############################
+
+description = "Risk factor"
+values = [ 24, 55,]
+type = "double"
+precision = 1
+format = "u8"
+shape = [ 2, 1,]
