@@ -1,0 +1,9 @@
+import click
+from noirgen.noir_gen import generate_noir_text
+
+
+@click.command()
+def cli():
+    """Generate noir-style text."""
+    text = generate_noir_text()
+    click.echo(text)

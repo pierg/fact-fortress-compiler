@@ -1,0 +1,44 @@
+{
+    "name": "risk",
+    "description": "computes the average risk scores of a population",
+    "keys": {
+        "pub_key_x": "0x2fa1db3a9188e138ce86d4b3eb2d0bf2a52ccec0a41d549a34b71669aa5d8d46",
+        "pub_key_y": "0x093c5ae46d29358e53375e1478f09eb2c50403d83b2f502250090ebc61b1dcf0",
+        "private_key": "e6242147fac0509dbe730a7969d7e0b875b60ee28709d457a868f88c84c4275a"
+    },
+    "statement": 10,
+    "data": {
+        "d1": {
+            "description": "Alleles of individuals",
+            "values": [
+                0,
+                0,
+                0,
+                0,
+                1,
+                2
+            ],
+            "type": "int",
+            "format": "u8",
+            "shape": [
+                3,
+                2
+            ]
+        },
+        "d2": {
+            "description": "Beta values",
+            "values": [
+                17,
+                16,
+                2
+            ],
+            "type": "double",
+            "precision": 1,
+            "format": "u8",
+            "shape": [
+                3,
+                1
+            ]
+        }
+    }
+}
