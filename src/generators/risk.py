@@ -11,9 +11,9 @@ def generate_risk(name: str):
     new_authority = generate_authority("Hospital_A")
     authorities.append(new_authority)
 
-    N_POSITIONS = 3  # number of positions in each individual's array
-    N_INDIVIDUALS = 2  # number of individuals in the list
-    PRECISION = 1
+    N_POSITIONS = 5  # number of positions in each individual's array
+    N_INDIVIDUALS = 10  # number of individuals in the list
+    PRECISION = 2
 
     # Generate individuals
     individuals = np.random.randint(0, 3, size=(N_INDIVIDUALS, N_POSITIONS))
