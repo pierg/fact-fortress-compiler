@@ -1,8 +1,5 @@
-from utils.sign import gen_key_pairs
 from utils.generate_configs import generate_configuration_json
 from utils.authorities import generate_authority
-import numpy as np
-import codecs
 
 
 def generate_simple(name: str):

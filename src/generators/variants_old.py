@@ -1,5 +1,4 @@
 import random
-import json
 import hashlib
 
 from utils.my_io import save_dict_to_json, save_dict_to_toml

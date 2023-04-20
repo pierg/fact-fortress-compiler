@@ -1,6 +1,4 @@
-from ast import main
 import json
-import numpy as np
 from shared import data_folder_path
 
 # Input:  patients genetics data at specific SNPs locations

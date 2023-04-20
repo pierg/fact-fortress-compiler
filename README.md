@@ -24,7 +24,7 @@ This library has been used to generate valid circuit for [fact-fortress-dapp](ht
 ## System requirements
 [noir](https://noir-lang.org)
 
-[pdm](https://pdm.fming.dev/latest/)
+[pdm](https://python-poetry.org)
 
 [python 3.11](https://www.python.org)
 
