@@ -1,6 +1,23 @@
-# noir-zkp
+# fact-fortress-circtuits
 
-Python library to create noir circuits 
+Python library facilitate the generation of Zero-Knowledge Proof circuits in [noir](https://noir-lang.org).
+
+The library can compile circuits with various input data sizes and formats.
+
+All the circuits compiled comes with a ZKP certifying the data proverance and consistency.
+
+You can generate and verify proofs on the compiled circuits by navigating to the folder `circuits/YOU_CIRCUIT` and run:
+
+
+```bash
+nargo prove p
+```
+
+```bash
+nargo prove p
+```
+
+This library has been used to generate valid circuit for [fact-fortress-dapp](https://github.com/pierg/fact-fortress-dapp)
 
 # Installing
 
