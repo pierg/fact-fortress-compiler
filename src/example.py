@@ -86,4 +86,7 @@ nargo prove p
 # VERIFY
 nargo verify p
 
+
+Or simply execute the prove.sh and verify.sh scripts in the generated folder.
+
 """
