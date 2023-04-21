@@ -1,3 +1,6 @@
+from .risk_score_analysis import risk_score_analysis
+
+
 d1 = [
     2,
     1,
