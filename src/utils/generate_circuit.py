@@ -6,7 +6,7 @@ import os
 from shared import circuits_path
 
 
-def generate_circuit(config: dict, data_hash: list[int], signature: tuple[str]):
+def generate_circuit(config: dict):
     """
     Generates the circuit and the noir files for the given config.
 
@@ -33,7 +33,5 @@ def generate_circuit(config: dict, data_hash: list[int], signature: tuple[str]):
     print("generating")
     generate_noir_files(
         config=config,
-        data_hash=data_hash_int,
-        data_signature=data_signature,
         circuit_path=noir_circuit_path,
     )

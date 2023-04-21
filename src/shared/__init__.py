@@ -5,12 +5,10 @@ from enum import Enum, auto
 
 
 class Aggregator(Enum):
-    SUM = auto
-    AVERAGE = auto
+    SUM = "sum"
+    AVERAGE = "average"
 
 
 class Functions(Enum):
-    DOT_PRODUCT = auto
-    MULTIPLE_DOT_PRODUCT = auto
-    SUM = auto
-    AVERAGE = auto
+    MULTIPLE_DOT_PRODUCT = "multiple_dot_product"
+    SIMPLE_DOT_PRODUCT = "simple_dot_product"

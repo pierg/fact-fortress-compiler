@@ -7,11 +7,9 @@ from .dictionary_tools import extract_data_labels_from_config
 from .my_io import save_dict_to_json, save_dict_to_toml
 
 
-def generate_noir_files(
-    config: dict, data_signature: list[int], data_hash: list[int], circuit_path: Path
-):
+def generate_noir_files(config: dict, circuit_path: Path):
     generate_project(config, circuit_path)
-    generate_input_file(config, data_signature, data_hash, circuit_path)
+    generate_input_file(config, circuit_path)
     generate_data_file(config, circuit_path)
     generate_main_file(config, circuit_path)
     generate_info_file(config, circuit_path)
@@ -38,6 +36,33 @@ def generate_info_file(config: dict, circuit_path: Path):
     }
 
     save_dict_to_json(output_data, circuit_path / "info.json")
+    save_dict_to_json(config, circuit_path / "config.json")
+    generate_prove_script(circuit_path)
+    generate_verify_script(circuit_path)
+
+
+def generate_prove_script(folder_path: Path):
+    script = "#!/bin/bash\n"
+    script += "nargo prove p\n"
+    script += "if [ $? -eq 0 ]; then\n"
+    script += '\techo "SUCCESS"\n'
+    script += "else\n"
+    script += '\techo "FAIL"\n'
+    script += "fi\n"
+    with open(str(folder_path / "prove.sh"), "w") as file:
+        file.write(script)
+
+
+def generate_verify_script(folder_path: Path):
+    script = "#!/bin/bash\n"
+    script += "nargo verify p\n"
+    script += "if [ $? -eq 0 ]; then\n"
+    script += '\techo "SUCCESS"\n'
+    script += "else\n"
+    script += '\techo "FAIL"\n'
+    script += "fi\n"
+    with open(str(folder_path / "verify.sh"), "w") as file:
+        file.write(script)
 
 
 def generate_project(config: dict, circuit_path: Path):
@@ -71,9 +96,7 @@ compiler_version = "{compiler_version}"
         )
 
 
-def generate_input_file(
-    config: dict, data_signature: list[int], data_hash: list[int], circuit_path: Path
-):
+def generate_input_file(config: dict, circuit_path: Path):
     # Save individuals and betas to a TOML file
     noir_data = {
         "public": {
@@ -85,8 +108,8 @@ def generate_input_file(
         },
         "private": {
             "provenance": {
-                "signature": data_signature,
-                "hash": data_hash,
+                "signature": config["signature"],
+                "hash": config["data_hash"],
             },
             "data": {},
         },
@@ -144,7 +167,8 @@ def generate_data_file(config: dict, circuit_path: Path):
         f.write("}\n")
         f.write("\n")
         f.write("struct Statement {\n")
-        f.write("    value: u8,\n")
+        # TODO: fix u16 to something related to the imput and function
+        f.write("    value: u16,\n")
         f.write("}\n")
         f.write("\n")
         f.write("struct Private {\n")
@@ -165,15 +189,13 @@ def generate_main_file(config: dict, circuit_path: Path):
     if "function" in config:
         # add funtion to the main file
         function_name = config["function"]["name"]
-        if function_name == Functions.AVERAGE.name:
-            pass
-        elif function_name == Functions.DOT_PRODUCT.name:
-            pass
-        elif function_name == Functions.MULTIPLE_DOT_PRODUCT.name:
+        print(function_name)
+        print(Functions.MULTIPLE_DOT_PRODUCT.value)
+        if function_name == Functions.MULTIPLE_DOT_PRODUCT.value:
             aggregator_name = config["function"]["aggregator"]
-            if aggregator_name == Aggregator.AVERAGE.name:
+            if aggregator_name == Aggregator.AVERAGE.value:
                 d_labels = extract_data_labels_from_config(config)
-                if len(d_labels != 2):
+                if len(d_labels) != 2:
                     raise ValueError(
                         f"Aggregator {aggregator_name} requires exactly 2 data labels."
                     )
@@ -184,10 +206,8 @@ def generate_main_file(config: dict, circuit_path: Path):
                     config["data"][d_labels[1]],
                     aggregator=Aggregator.AVERAGE,
                 )
-            elif aggregator_name == Aggregator.SUM.name:
+            elif aggregator_name == Aggregator.SUM.value:
                 pass
-        elif function_name == Functions.SUM.name:
-            pass
         else:
             raise ValueError(f"Function {function_name} not supported.")
 

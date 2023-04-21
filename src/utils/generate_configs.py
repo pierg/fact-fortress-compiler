@@ -12,12 +12,8 @@ def generate_configuration_file(
     statement: int,
     authorities: list[dict],
     function: dict,
-    data: list[dict],
+    data: dict,
 ) -> Path:
-    data_dict = {}
-    for i, d in enumerate(data):
-        data_dict[f"d{i+1}"] = d
-
     authorities_dict = {}
     for i, d in enumerate(authorities):
         authorities_dict[f"auth_{i+1}"] = d
@@ -30,6 +26,6 @@ def generate_configuration_file(
         "statement": statement,
         "authorities": authorities_dict,
         "function": function,
-        "data": data_dict,
+        "data": data,
     }
     return save_dict_to_json(json_data, config_path / (name + ".json"))
