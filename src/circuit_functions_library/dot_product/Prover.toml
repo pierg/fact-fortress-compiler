@@ -1,0 +1,10 @@
+##############################
+#	computes the average risk scores of a population
+##############################
+
+[public.statement]
+value = 14
+
+[private.data]
+d1 = [ 1, 2, 1, 1, 2, 1, 0, 1,]
+d2 = [ 2, 3,]

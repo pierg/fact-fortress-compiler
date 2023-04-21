@@ -1,6 +1,6 @@
 {
     "function": {
-        "name": "risk",
+        "name": "risk_simple",
         "description": "computes the average risk scores of a population"
     },
     "data": [
