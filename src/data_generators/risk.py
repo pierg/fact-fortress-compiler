@@ -51,8 +51,8 @@ def generate_risk_data(
     individuals_int = np.ravel(individuals).astype(int).tolist()
 
     # example usage
-    data = [
-        {
+    data = {
+        "d1": {
             "name": "Alleles",
             "description": f"Alleles of individuals from {authority['name']}",
             "provider": authority["name"],
@@ -61,7 +61,7 @@ def generate_risk_data(
             "format": "u8",
             "shape": [N_POSITIONS, N_INDIVIDUALS],
         },
-        {
+        "d2": {
             "name": "Beta",
             "description": f"Beta values of heart conditions from {authority['name']}",
             "provider": authority["name"],
@@ -71,5 +71,5 @@ def generate_risk_data(
             "format": "u8",
             "shape": [N_POSITIONS, 1],
         },
-    ]
+    }
     return data

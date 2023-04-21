@@ -2,7 +2,7 @@ from pathlib import Path
 import os
 
 from circuit_functions_library.dot_product import generate_dot_product_multi
-from src.shared.shared import Aggregator, Functions
+from shared import Aggregator, Functions
 from .dictionary_tools import extract_data_labels_from_config
 from .my_io import save_dict_to_json, save_dict_to_toml
 
