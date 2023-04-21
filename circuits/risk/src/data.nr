@@ -1,8 +1,10 @@
 global D1_SIZE: Field = 50;
-global D1_SHAPE: [u8; 2] = [5, 10];
+global D1_SHAPE_0: u8 = 5;
+global D1_SHAPE_1: u8 = 10;
 
 global D2_SIZE: Field = 5;
-global D2_SHAPE: [u8; 2] = [5, 1];
+global D2_SHAPE_0: u8 = 5;
+global D2_SHAPE_1: u8 = 1;
 global D2_PRECISION: u4 = 2;
 
 global DATA_SIZE: Field = 55;

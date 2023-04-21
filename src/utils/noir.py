@@ -1,9 +1,15 @@
 from pathlib import Path
 import os
+
+from circuit_functions_library.dot_product import generate_dot_product_multi
+from src.shared.shared import Aggregator, Functions
+from .dictionary_tools import extract_data_labels_from_config
 from .my_io import save_dict_to_json, save_dict_to_toml
 
 
-def generate_noir_files(config: dict, data_signature: list[int], data_hash: list[int], circuit_path: Path):
+def generate_noir_files(
+    config: dict, data_signature: list[int], data_hash: list[int], circuit_path: Path
+):
     generate_project(config, circuit_path)
     generate_input_file(config, data_signature, data_hash, circuit_path)
     generate_data_file(config, circuit_path)
@@ -18,11 +24,18 @@ def generate_info_file(config: dict, circuit_path: Path):
     data = []
     for data_key, data_value in config["data"].items():
         data.append(
-            {"name": data_value["name"], "description": data_value["description"], "provider": data_value["provider"]}
+            {
+                "name": data_value["name"],
+                "description": data_value["description"],
+                "provider": data_value["provider"],
+            }
         )
 
     # create output JSON object
-    output_data = {"function": {"name": function_name, "description": function_description}, "data": data}
+    output_data = {
+        "function": {"name": function_name, "description": function_description},
+        "data": data,
+    }
 
     save_dict_to_json(output_data, circuit_path / "info.json")
 
@@ -50,15 +63,17 @@ def generate_project(config: dict, circuit_path: Path):
         f.write(
             f"""
 [package]
-authors = ["{compiler_version}"]
-compiler_version = "{authors}"
+authors = ["{authors}"]
+compiler_version = "{compiler_version}"
 
 [dependencies]
             """
         )
 
 
-def generate_input_file(config: dict, data_signature: list[int], data_hash: list[int], circuit_path: Path):
+def generate_input_file(
+    config: dict, data_signature: list[int], data_hash: list[int], circuit_path: Path
+):
     # Save individuals and betas to a TOML file
     noir_data = {
         "public": {
@@ -93,12 +108,23 @@ def generate_data_file(config: dict, circuit_path: Path):
         data = config["data"]
         for key in data:
             d = data[key]
-            f.write("global {}_SIZE: Field = {};\n".format(key.upper(), len(d["values"])))
-            f.write("global {}_SHAPE: [u8; {}] = {};\n".format(key.upper(), len(d["shape"]), d["shape"]))
+            f.write(
+                "global {}_SIZE: Field = {};\n".format(key.upper(), len(d["values"]))
+            )
+            f.write("global {}_SHAPE_0: u8 = {};\n".format(key.upper(), d["shape"][0]))
+            f.write("global {}_SHAPE_1: u8 = {};\n".format(key.upper(), d["shape"][1]))
             if "precision" in d:
-                f.write("global {}_PRECISION: u4 = {};\n".format(key.upper(), d["precision"]))
+                f.write(
+                    "global {}_PRECISION: u4 = {};\n".format(
+                        key.upper(), d["precision"]
+                    )
+                )
             f.write("\n")
-        f.write("global DATA_SIZE: Field = {};\n".format(sum([len(data[key]["values"]) for key in data])))
+        f.write(
+            "global DATA_SIZE: Field = {};\n".format(
+                sum([len(data[key]["values"]) for key in data])
+            )
+        )
         f.write("\n")
         f.write("struct Data {\n")
         for key in data:
@@ -135,6 +161,36 @@ def generate_data_file(config: dict, circuit_path: Path):
 
 
 def generate_main_file(config: dict, circuit_path: Path):
+    function_string = ""
+    if "function" in config:
+        # add funtion to the main file
+        function_name = config["function"]["name"]
+        if function_name == Functions.AVERAGE.name:
+            pass
+        elif function_name == Functions.DOT_PRODUCT.name:
+            pass
+        elif function_name == Functions.MULTIPLE_DOT_PRODUCT.name:
+            aggregator_name = config["function"]["aggregator"]
+            if aggregator_name == Aggregator.AVERAGE.name:
+                d_labels = extract_data_labels_from_config(config)
+                if len(d_labels != 2):
+                    raise ValueError(
+                        f"Aggregator {aggregator_name} requires exactly 2 data labels."
+                    )
+                function_string = generate_dot_product_multi(
+                    d_labels[0].upper(),
+                    config["data"][d_labels[0]],
+                    d_labels[1].upper(),
+                    config["data"][d_labels[1]],
+                    aggregator=Aggregator.AVERAGE,
+                )
+            elif aggregator_name == Aggregator.SUM.name:
+                pass
+        elif function_name == Functions.SUM.name:
+            pass
+        else:
+            raise ValueError(f"Function {function_name} not supported.")
+
     file_path = circuit_path / "src" / "main.nr"
     if not os.path.exists(file_path.parent):
         os.makedirs(file_path.parent)
@@ -182,7 +238,11 @@ fn verify_data_provenance(
         provenance.signature, 
         digest256)
 }
-
+"""
+        )
+        if function_string == "":
+            f.write(
+                """
 
 // Perform some meaningful operations on the data and return the result.
 fn perform_computation_on_data(data: data::Data) -> u8  {
@@ -190,14 +250,21 @@ fn perform_computation_on_data(data: data::Data) -> u8  {
 
     // Dummy implementation that returns zero.
     let mut result = data.d1[0];
-"""
-        )
-        f.write(f"    result = {config['statement']};")
+    """
+            )
+            f.write(f"    result = {config['statement']};")
+            f.write(
+                """
+
+    result as u8
+    }
+    """
+            )
+        else:
+            f.write(function_string)
         f.write(
             """
 
-    result as u8
-}
 
 fn main(
     public : pub data::Public,    // Data containing the expected result.

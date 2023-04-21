@@ -1,5 +1,6 @@
 import hashlib
-from shared import sum_size
+
+sum_size = 8
 
 
 def custom_sum(data: list[int]) -> list[int]:

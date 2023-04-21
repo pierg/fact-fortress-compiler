@@ -1,4 +1,4 @@
-from utils.generate_configs import generate_configuration_json
+from utils.generate_configs import generate_configuration_file
 import numpy as np
 from utils.authorities import generate_authority
 
@@ -60,7 +60,7 @@ def generate_risk(name: str):
         },
     ]
 
-    generate_configuration_json(
+    generate_configuration_file(
         name=name,
         description="computes the average risk scores of a population",
         authorities=authorities,

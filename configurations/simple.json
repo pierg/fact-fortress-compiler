@@ -5,9 +5,9 @@
     "authorities": {
         "auth_1": {
             "name": "Provider_A",
-            "pub_key_x": "0x1bfd7fdd71b0b9e5df567ebfac053ca573a4b3d219fe70afd474332fff59524c",
-            "pub_key_y": "0x1d72a215d03f3290e6eea3983aea923377fa83933d3421dd1c84e1f003cfea2b",
-            "private_key": "5b1389358839657e3079262b761533cc2231222a47050539b669a9cac095801e"
+            "pub_key_x": "0x21ba792b08cf78a6c92a1a347803a5a32a3c05f0ab370aa6083a348f2ad06a4b",
+            "pub_key_y": "0x10eac31241e2f0ea85c0f1ddef1211e5e2a6b6d5c333bc923a319157d80bf55e",
+            "private_key": "738a9a59c3602afe85aa53a96ca4190fdf7b3cf300133d832088a29f95bd47a8"
         }
     },
     "data": {

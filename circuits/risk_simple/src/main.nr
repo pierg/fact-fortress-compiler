@@ -46,17 +46,19 @@ fn verify_data_provenance(
 }
 
 
-// Perform some meaningful operations on the data and return the result.
-fn perform_computation_on_data(data: data::Data) -> u8  {
-    // TODO: Implement the actual computation on the data.
+    // Perform some meaningful operations on the data and return the result.
+    fn perform_computation_on_data(data: data::Data) -> u8  {
+        // TODO: Implement the actual computation on the data.
 
-    // Dummy implementation that returns zero.
-    let mut result = data.d1[0];
-    result = 14;
+        // Dummy implementation that returns zero.
+        let mut result = data.d1[0];
+        result = 15;
 
-    result as u8
-}
+        result as u8
+    }
+    
 
+            
 fn main(
     public : pub data::Public,    // Data containing the expected result.
     private : data::Private,    // Data to be verified and processed.

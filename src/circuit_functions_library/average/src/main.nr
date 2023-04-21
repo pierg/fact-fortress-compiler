@@ -1,16 +1,24 @@
 use dep::std;
 mod data;
 
+// Declare the size of the first dimension for Data
 global D1_SIZE: Field = 8;
+// Declare the size of the first dimension for the first element of Data
 global D1_SHAPE_0: u8 = 2;
+// Declare the size of the second dimension for the first element of Data
 global D1_SHAPE_1: u8 = 4;
 
+// Declare the size of the second dimension for Data
 global D2_SIZE: Field = 2;
+// Declare the size of the first dimension for the second element of Data
 global D2_SHAPE_0: u8 = 2;
+// Declare the size of the second dimension for the second element of Data
 global D2_SHAPE_1: u8 = 1;
 
+// Calculate the total size of the two dimensional Data array
 global DATA_SIZE: Field = 10;
 
+// Define the Data struct with two arrays, d1 and d2
 struct Data {
     // Two dimensional array represented in one dimension
     d1: [u8; 8],
@@ -18,47 +26,43 @@ struct Data {
     d2: [u8; 2],
 }
 
-// Computes the dot products. The array must be of the same sizes
+// Compute the dot product of two one dimensional arrays of the same size
+// x : first array, y : second array
 fn dot_product(x : [u8; D2_SHAPE_0], y : [u8; D2_SHAPE_0]) -> u16 {
+
     let mut result = 0;
-    // for i in 0..D2_SHAPE_0
+
+    // Loop through the elements of the arrays and compute the dot product
     for i in 0..2 {
-        // let mut prod = x[i] as u16 * y[i] as u16; // casting to avoid overflow
-        result = result + (x[i] as u16 * y[i] as u16);
+        result = result + (x[i] as u16 * y[i] as u16); // Cast to avoid overflow
     }
     result
 }
 
-// Unroll x according to its dimensions and compute the dot product with y
-// It returns an array of dot products of size D1_SHAPE_1
+// Unroll the two dimensional array x into a one dimensional array, 
+// then compute the dot products of the unrolled arrays with y
+// Returns an array of DP1_SHAPE_1 dot products
 fn unroll_and_compute(x : [u8; D1_SIZE], 
-                      y : [u8; D2_SHAPE_0]
-                      ) -> [u16; D1_SHAPE_1] {
+                      y : [u8; D2_SHAPE_0]) -> [u16; D1_SHAPE_1] {
 
     let mut result = [0; D1_SHAPE_1];
-    // let mut result = 0;
-    // for i in 0..D1_SHAPE_1
+
+    // For each row of x, unroll it and compute dot product with y
     for i in 0..4 {
         let start = i * D1_SHAPE_0 as Field;
         let end = start + D1_SHAPE_0 as Field;
         let mut x_slice = [0; D1_SHAPE_0];
-
-        // let mut slice_index = 0 - start;
-        // x_slice[slice_index] = x[i] as u16;
-        // x_slice[slice_index+1] = x[end] as u16;
-        // result = x_slice;
         for j in start..end {
             let mut slice_index = j - start;
             x_slice[slice_index] = x[j] as u8;
-            // result = dot_product(x_slice, y);
             result[i] = dot_product(x_slice, y);
         }
-        // result[i] = dot_product(x_slice, y);
     }
     result
 }
 
-// Computes the average
+// Compute the average of the values in an array
+// x : array of values for which the average will be computed
 fn average(x: [u16; D1_SHAPE_1]) -> u16 {
     let mut sum = 0;
     for i in 0..D1_SHAPE_1 as Field {
@@ -74,16 +78,11 @@ fn average(x: [u16; D1_SHAPE_1]) -> u16 {
 fn perform_computation_on_data(data: data::Data) -> u16  {
     
     let dot_products = unroll_and_compute(data.d1, data.d2);
+
     let average = average(dot_products);
 
     average
 
-    // average
-
-    // unroll_and_compute(data.d1, 
-    //                         data.d2
-    //                         )
-    
 }
 
 fn main(

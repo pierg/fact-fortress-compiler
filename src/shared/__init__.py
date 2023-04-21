@@ -1,4 +1,2 @@
 from .paths import *
-
-
-sum_size = 8
+from .shared import *

@@ -1,13 +1,13 @@
 {
     "name": "risk_simple",
     "description": "computes the average risk scores of a population",
-    "statement": 14,
+    "statement": 15,
     "authorities": {
         "auth_1": {
             "name": "Hospital_A",
-            "pub_key_x": "0x22586f3e7c5e7eac8ad2eb378a915aacc9be5dcdc901db4487643f6eb5c9de00",
-            "pub_key_y": "0x13bd1d97d57b2fba1b7c17fcd944a581008255b264ce39d901015a81ae16c709",
-            "private_key": "6373bf6b27fbbd65d048055bdedd38c50c696dc301a6791104ad8ca0970c55b2"
+            "pub_key_x": "0x0de18220ee5af096a7ec0d84568b39e3aea0d3969d95d7b4c9fc3ca422fef849",
+            "pub_key_y": "0x090974d57b3605db7bea8747fcfee89b206efb8c1533126a8c2e1046d38a62aa",
+            "private_key": "a4d2a6e93789c07954e73bb3b9b3baf3484bb03e3c69d99b4f52c2b2b012f28a"
         }
     },
     "data": {
@@ -17,12 +17,12 @@
             "provider": "Hospital_A",
             "values": [
                 0,
+                1,
                 0,
                 1,
-                1,
+                0,
                 1,
                 2,
-                0,
                 1
             ],
             "type": "int",
@@ -37,8 +37,8 @@
             "description": "Beta values of heart conditions from Hospital A",
             "provider": "Hospital_A",
             "values": [
-                20,
-                4
+                4,
+                13
             ],
             "type": "double",
             "precision": 2,
