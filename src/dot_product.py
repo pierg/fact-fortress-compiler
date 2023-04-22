@@ -10,7 +10,7 @@ from utils.sign_data import sign_data
 """
 Generate a new authority with a unique set of key-pairs, and returns the authority's details as a dictionary.
 """
-authority = generate_authority("Authority_A")
+authority = generate_authority("Authority_D")
 
 
 """

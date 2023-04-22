@@ -10,14 +10,15 @@ from utils.sign_data import sign_data
 """
 Generate a new authority with a unique set of key-pairs, and returns the authority's details as a dictionary.
 """
-authority = generate_authority("Authority_A")
+authority = generate_authority("Authority_B")
+authority_b = generate_authority("Authority_C")
 
 
 """
 Generate data of different shapes
 """
 example_data = generate_multi_dimensional_data(
-    authority=authority, shape_1=2, shape_2=4, precision=2
+    authority=authority, shape_1=4, shape_2=8, precision=2
 )
 
 
@@ -50,9 +51,9 @@ expected_result = multi_dot_product_average(
 Generate a new configuration file in JSON format to programmatically create the circuit and saves it to the configuration folder.
 """
 config_path = generate_configuration_file(
-    name="average_dot_products",
-    description="Computes the average of dot-products between a two-dimensional matrix and a vector with a given precision, where the dot-product between each row of the matrix and the vector is computed and then averaged over all rows. The precision can be specified as the number of decimal places to include in the result.",
-    authorities=[authority],
+    name="sum_of_squares",
+    description="Computes the sum of squares of a given list of numbers with a given precision, where each number in the list is squared and then summed up. The precision can be specified as the number of decimal places to include in the result.",
+    authorities=[authority, authority_b],
     data_hash=data_hash,
     signature=signature,
     statement=expected_result,
