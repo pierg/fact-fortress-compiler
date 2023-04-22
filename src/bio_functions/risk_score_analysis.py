@@ -14,10 +14,10 @@ def average(x: list[int]) -> int:
     return sum(x) // 4
 
 
-def risk_score_analysis(
-    individuals: list[int],
-    individuals_shape: tuple[int, int],
-    beta_values: list[int],
+def multi_dot_product_average(
+    data_1: list[int],
+    data_1_shape: tuple[int, int],
+    data_2_values: list[int],
 ) -> int:
-    dot_products = unroll_and_compute(individuals, individuals_shape, beta_values)
+    dot_products = unroll_and_compute(data_1, data_1_shape, data_2_values)
     return average(dot_products)

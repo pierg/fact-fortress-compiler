@@ -97,7 +97,7 @@ compiler_version = "{compiler_version}"
 
 
 def generate_input_file(config: dict, circuit_path: Path):
-    # Save individuals and betas to a TOML file
+    # Save individuals and data_2s to a TOML file
     noir_data = {
         "public": {
             "keys": {

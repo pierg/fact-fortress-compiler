@@ -1,18 +1,18 @@
 {
     "function": {
         "name": "risk_simple",
-        "description": "computes the average risk scores of a population"
+        "description": "computes the average function_1s of a population"
     },
     "data": [
         {
-            "name": "Alleles_HA",
-            "description": "Alleles of individuals from Hospital A",
-            "provider": "Hospital_A"
+            "name": "Datas_HA",
+            "description": "Datas of individuals from Authority A",
+            "provider": "Authority_A"
         },
         {
             "name": "Beta_HA",
-            "description": "Beta values of heart conditions from Hospital A",
-            "provider": "Hospital_A"
+            "description": "Beta values of heart conditions from Authority A",
+            "provider": "Authority_A"
         }
     ]
 }

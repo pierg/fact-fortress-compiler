@@ -10,9 +10,9 @@ global D2_PRECISION: u4 = 2;
 global DATA_SIZE: Field = 10;
 
 struct Data {
-    // Alleles of individuals from Hospital A
+    // Datas of individuals from Authority A
     d1: [u8; 8],
-    // Beta values of heart conditions from Hospital A
+    // Beta values of heart conditions from Authority A
     d2: [u8; 2],
 }
 

@@ -1,4 +1,4 @@
-from .risk_score_analysis import risk_score_analysis
+from .risk_score_analysis import multi_dot_product_average
 
 
 d1 = [
@@ -22,6 +22,6 @@ d2_shape = (2, 1)
 # Sohould return 109
 
 
-res = risk_score_analysis(d1, d1_shape, d2)
+res = multi_dot_product_average(d1, d1_shape, d2)
 
 print(res)

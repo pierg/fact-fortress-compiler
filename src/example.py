@@ -1,6 +1,6 @@
 from cli import gen_circuit
-from data_generators import generate_risk_data
-from bio_functions.risk_score_analysis import risk_score_analysis
+from data_generators import generate_multi_dimensional_data
+from bio_functions.risk_score_analysis import multi_dot_product_average
 from src.shared import Aggregator, Functions
 from utils.authorities import generate_authority
 from utils.generate_configs import generate_configuration_file
@@ -10,28 +10,25 @@ from utils.sign_data import sign_data
 """
 Generate a new authority with a unique set of key-pairs, and returns the authority's details as a dictionary.
 """
-authority = generate_authority("Hospital_A")
+authority = generate_authority("Authority_A")
 
 
 """
-Generate synthetic genetic data for a given number of individuals.'
-The data generates contains:
-    - allele counts for each genome position in each individual
-    - beta values for each position, i.e. the risk score associated the specific position.
+Generate data of different shapes
 """
-genetic_data = generate_risk_data(
-    authority=authority, n_positions=2, n_individuals=4, precision=2
+example_data = generate_multi_dimensional_data(
+    authority=authority, shape_1=2, shape_2=4, precision=2
 )
 
 
 """
 Computes the hash of concatenated values from a data dictionary, signs the hash using an authority's private key, and returns the resulting signature and data hash as a tuple.
 """
-data_hash, signature = sign_data(authority, genetic_data)
+data_hash, signature = sign_data(authority, example_data)
 
 
 """
-Choose the function to compute the risk score form ther library of functions and aggregators that are currently supported.
+Choose the function to apply on the data form ther library of functions and aggregators that are currently supported.
 """
 
 function = {
@@ -40,12 +37,12 @@ function = {
 }
 
 """
-Perform the risk score analysis in python so that we can compare the result with the one proved by the circuit in Zero Knowledge.
+Perform the function on the data in python so that we can compare the result with the one proved by the circuit in Zero Knowledge.
 """
-expected_result = risk_score_analysis(
-    individuals=genetic_data["d1"]["values"],
-    individuals_shape=genetic_data["d1"]["shape"],
-    beta_values=genetic_data["d2"]["values"],
+expected_result = multi_dot_product_average(
+    data_1=example_data["d1"]["values"],
+    data_1_shape=example_data["d1"]["shape"],
+    data_2_values=example_data["d2"]["values"],
 )
 
 
@@ -53,13 +50,13 @@ expected_result = risk_score_analysis(
 Generate a new configuration file in JSON format to programmatically create the circuit and saves it to the configuration folder.
 """
 config_path = generate_configuration_file(
-    name="risk_score_test",
-    description="Computes the average risk scores for heart failure of a population",
+    name="average_dot_products",
+    description="Computes the average of dot-products between a two-dimensional matrix and a vector with a given precision, where the dot-product between each row of the matrix and the vector is computed and then averaged over all rows. The precision can be specified as the number of decimal places to include in the result.",
     authorities=[authority],
     data_hash=data_hash,
     signature=signature,
     statement=expected_result,
-    data=genetic_data,
+    data=example_data,
     function=function,
 )
 

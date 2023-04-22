@@ -3,23 +3,23 @@ import numpy as np
 from utils.authorities import generate_authority
 
 
-def generate_risk_data(
+def generate_multi_dimensional_data(
     authority: dict,
-    n_positions: int = 2,
-    n_individuals: int = 4,
+    shape_1: int = 2,
+    shape_2: int = 4,
     precision: int = 2,
 ) -> dict:
     """
-    Generate synthetic genetic data for a given number of individuals.'
+    Generate synthetic example data for a given number of individuals.'
     The data generates contains:
-        - allele counts for each genome position in each individual
-        - beta values for each position, i.e. the risk score associated the specific position
+        - data_1 counts for each genome position in each individual
+        - data_2 values for each position, i.e. the function_1 associated the specific position
 
     Args:
         authority (str): Authority generatng the data
-        n_positions (int): Number of genetic positions to simulate.
+        n_positions (int): Number of example positions to simulate.
         n_individuals (int): Number of individuals to simulate.
-        precision (int): Decimal precision to use when quantifying beta values.
+        precision (int): Decimal precision to use when quantifying data_2 values.
 
     Returns:
         data (dict): A dictionary representing the data our standard format.
@@ -32,20 +32,20 @@ def generate_risk_data(
                     - "format": The format of the values (str).
                     - "shape": A list representing the shape of the data (list of integers).
     """
-    # This script generates the data for the risk score function
+    # This script generates the data for the function_1 function
 
-    N_POSITIONS = n_positions  # number of positions in each individual's array
-    N_INDIVIDUALS = n_individuals  # number of individuals in the list
+    N_POSITIONS = shape_1  # number of positions in each individual's array
+    N_INDIVIDUALS = shape_2  # number of individuals in the list
     PRECISION = precision
 
     # Generate individuals
     individuals = np.random.randint(0, 3, size=(N_INDIVIDUALS, N_POSITIONS))
 
-    # Generate beta values
-    betas = np.abs(np.random.normal(0, 1, size=N_POSITIONS))
+    # Generate data_2 values
+    data_2s = np.abs(np.random.normal(0, 1, size=N_POSITIONS))
 
-    # Approximate beta values with integers with three decimal points precision
-    betas_int = np.around(betas * (PRECISION * 10)).astype(int).tolist()
+    # Approximate data_2 values with integers with three decimal points precision
+    data_2s_int = np.around(data_2s * (PRECISION * 10)).astype(int).tolist()
 
     # Compute individuals_int
     individuals_int = np.ravel(individuals).astype(int).tolist()
@@ -53,8 +53,8 @@ def generate_risk_data(
     # example usage
     data = {
         "d1": {
-            "name": "Alleles",
-            "description": f"Alleles of individuals from {authority['name']}",
+            "name": "Datas",
+            "description": f"Datas of individuals from {authority['name']}",
             "provider": authority["name"],
             "values": individuals_int,
             "type": "int",
@@ -65,7 +65,7 @@ def generate_risk_data(
             "name": "Beta",
             "description": f"Beta values of heart conditions from {authority['name']}",
             "provider": authority["name"],
-            "values": betas_int,
+            "values": data_2s_int,
             "type": "double",
             "precision": PRECISION,
             "format": "u8",

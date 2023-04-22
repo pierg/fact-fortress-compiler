@@ -1,7 +1,7 @@
 import json
 from src.shared import data_folder_path
 
-# Input:  patients genetics data at specific SNPs locations
+# Input:  patients examples data at specific SNPs locations
 # Output: average risk factor among all patients for cardiovascular problems
 
 # Load the data from the JSON file
@@ -12,11 +12,11 @@ with open(data_folder_path / "snps_data.json") as f:
 # function to retrieve the genotype of a patient for a given SNP
 def get_genotype(patient_id, snp):
     try:
-        genotype = data["private_data"]["auth_a"]["data"][patient_id]["genetic_data"][
+        genotype = data["private_data"]["auth_a"]["data"][patient_id]["example_data"][
             snp
         ]
     except KeyError:
-        genotype = data["private_data"]["auth_b"]["data"][patient_id]["genetic_data"][
+        genotype = data["private_data"]["auth_b"]["data"][patient_id]["example_data"][
             snp
         ]
     return genotype
@@ -28,11 +28,11 @@ def percentage_people_with(data, position, value):
     for patient_id in data["private_data"]["auth_a"]["data"]:
         if (
             position
-            in data["private_data"]["auth_a"]["data"][patient_id]["genetic_data"]
+            in data["private_data"]["auth_a"]["data"][patient_id]["example_data"]
         ):
             total_count += 1
             if (
-                data["private_data"]["auth_a"]["data"][patient_id]["genetic_data"][
+                data["private_data"]["auth_a"]["data"][patient_id]["example_data"][
                     position
                 ]
                 == value
@@ -41,11 +41,11 @@ def percentage_people_with(data, position, value):
     for patient_id in data["private_data"]["auth_b"]["data"]:
         if (
             position
-            in data["private_data"]["auth_b"]["data"][patient_id]["genetic_data"]
+            in data["private_data"]["auth_b"]["data"][patient_id]["example_data"]
         ):
             total_count += 1
             if (
-                data["private_data"]["auth_b"]["data"][patient_id]["genetic_data"][
+                data["private_data"]["auth_b"]["data"][patient_id]["example_data"][
                     position
                 ]
                 == value
