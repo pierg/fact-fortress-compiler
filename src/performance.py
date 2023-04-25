@@ -33,8 +33,8 @@ def generate(bits=8, rng=[10, 100], step=10, path=performance_path):
 
 if __name__ == "__main__":
     bits = 8
-    rng = [10, 100]
-    step = 10
+    rng = [4, 100]
+    step = 4
 
     """Generate circuits"""
     generate(bits, rng, step, path=performance_path)
