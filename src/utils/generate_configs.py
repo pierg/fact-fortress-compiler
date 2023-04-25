@@ -28,4 +28,5 @@ def generate_configuration_file(
         "function": function,
         "data": data,
     }
+    print(json_data)
     return save_dict_to_json(json_data, config_path / (name + ".json"))

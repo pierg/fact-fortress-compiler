@@ -5,7 +5,7 @@ from utils.generate_circuit import generate_circuit
 import json
 
 
-def gen_circuit(file_name: str | Path) -> int:
+def gen_circuit(file_name: str | Path, circuit_path: Path) -> int:
     if isinstance(file_name, str):
         file_path = config_path / (file_name + ".json")
     else:
@@ -15,7 +15,7 @@ def gen_circuit(file_name: str | Path) -> int:
     with open(file_path) as f:
         configuration = json.load(f)
 
-    generate_circuit(config=configuration)
+    generate_circuit(config=configuration, circuit_path=circuit_path)
 
 
 def generate_cli(args: str) -> int:

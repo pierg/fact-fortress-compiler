@@ -1,0 +1,18 @@
+{
+    "function": {
+        "name": "circuit_8_20_10",
+        "description": "Computes the average of dot-products between a two-dimensional matrix and a vector with a given precision, where the dot-product between each row of the matrix and the vector is computed and then averaged over all rows. The precision can be specified as the number of decimal places to include in the result."
+    },
+    "data": [
+        {
+            "name": "Data_1",
+            "description": "Two-dimensional matrix with shape [2, 10]",
+            "provider": "Authority_A"
+        },
+        {
+            "name": "Data_2",
+            "description": "Two-dimensional matrix with shape [2, 1]",
+            "provider": "Authority_A"
+        }
+    ]
+}

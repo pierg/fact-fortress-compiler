@@ -50,6 +50,7 @@ def save_dict_to_json(data: dict, file_path: Path, order: bool = False) -> Path:
         os.makedirs(os.path.dirname(file_path))
 
     with open(str(file_path), "w") as f:
+        print(data)
         json.dump(data, f, indent=4, sort_keys=False)
 
     print(f"File saved: {file_path}")

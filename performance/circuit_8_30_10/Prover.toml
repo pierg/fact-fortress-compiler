@@ -1,0 +1,18 @@
+##############################
+#	Computes the average of dot-products between a two-dimensional matrix and a vector with a given precision, where the dot-product between each row of the matrix and the vector is computed and then averaged over all rows. The precision can be specified as the number of decimal places to include in the result.
+##############################
+
+[public.keys]
+pub_key_x = "0x17b49f7bed5bc8b69820e7efb388693bf104210375845d3eb17334bc428d2376"
+pub_key_y = "0x1f319e8e3cbf461202e83eb2fe6da32c46a595352d996c4741f7b456213247a5"
+
+[public.statement]
+value = 33
+
+[private.provenance]
+signature = [ 25, 14, 8, 154, 92, 161, 235, 128, 91, 1, 96, 161, 246, 29, 88, 7, 94, 123, 140, 159, 41, 71, 146, 148, 236, 224, 238, 146, 234, 72, 202, 30, 108, 55, 12, 142, 181, 114, 95, 25, 26, 48, 246, 0, 217, 156, 42, 164, 39, 33, 36, 39, 177, 237, 160, 10, 122, 214, 65, 238, 118, 89, 203, 213,]
+hash = [ 73, 234, 199, 205, 252, 155, 201, 176, 87, 180, 43, 76, 172, 185, 42, 168, 57, 101, 171, 80, 214, 172, 190, 237, 176, 198, 64, 131, 15, 244, 210, 189,]
+
+[private.data]
+d1 = [ 4, 4, 0, 9, 0, 4, 1, 7, 6, 6, 4, 3, 2, 5, 9, 1, 5, 4, 3, 7, 6, 1, 6, 4, 9, 0, 1, 6, 2, 3,]
+d2 = [ 2, 6,]
