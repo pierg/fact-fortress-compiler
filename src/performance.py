@@ -21,7 +21,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Script description")
     parser.add_argument("--bits", type=int, default=16, help="Number of bits")
     parser.add_argument(
-        "--rng", type=int, nargs=2, default=[10, 100], help="Range of values"
+        "--rng", type=int, nargs=2, default=[10, 65500], help="Range of values"
     )
     parser.add_argument("--step", type=int, default=50, help="Step size")
     args = parser.parse_args()
