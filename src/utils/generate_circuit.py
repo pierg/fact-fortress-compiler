@@ -18,19 +18,6 @@ def generate_circuit(config: dict, circuit_path: Path = circuits_path):
         print(f"{noir_circuit_path} is not empty")
         return
 
-    # Concatenate all data["values"] into one big list
-    data_list = []
-    for data in config["data"].values():
-        data_list.extend(data["values"])
-
-    # Compute hash only of individuals_int for simplicity (related to noir bug)
-    data_hash_int, data_hash_hex = get_hash_simple(data_list)
-
-    # Sign private_data
-    data_signature = sign(
-        "".join(data_hash_hex), config["authorities"]["auth_1"]["private_key"]
-    )
-
     print("generating")
     generate_noir_files(
         config=config,

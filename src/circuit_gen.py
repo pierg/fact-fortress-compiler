@@ -55,11 +55,12 @@ def generate_circuit(
         "aggregator": Aggregator.AVERAGE.value,
     }
 
-    expected_result = multi_dot_product_average(
-        data_1=data["d1"]["values"],
-        data_1_shape=data["d1"]["shape"],
-        data_2_values=data["d2"]["values"],
+    result = multi_dot_product_average(
+        x=data["d1"]["values"],
+        x_shape=data["d1"]["shape"],
+        y=data["d2"]["values"],
     )
+    expected_result = result["result"]
 
     config_path = generate_configuration_file(
         name=name,
@@ -70,6 +71,9 @@ def generate_circuit(
         statement=expected_result,
         data=data,
         function=function,
+        info=result,
     )
 
     gen_circuit(config_path, path)
+
+    return result

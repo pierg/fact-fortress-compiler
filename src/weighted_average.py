@@ -43,7 +43,7 @@ expected_result = multi_dot_product_average(
     data_1=example_data["d1"]["values"],
     data_1_shape=example_data["d1"]["shape"],
     data_2_values=example_data["d2"]["values"],
-)
+)["result"]
 
 
 """

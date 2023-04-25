@@ -30,10 +30,18 @@ def generate_info_file(config: dict, circuit_path: Path):
         )
 
     # create output JSON object
-    output_data = {
-        "function": {"name": function_name, "description": function_description},
-        "data": data,
-    }
+    if "info" in config:
+        output_data = {
+            "function": {"name": function_name, "description": function_description},
+            "n_additions": config["info"]["n_additions"],
+            "n_multiplications": config["info"]["n_multiplications"],
+            "data": data,
+        }
+    else:
+        output_data = {
+            "function": {"name": function_name, "description": function_description},
+            "data": data,
+        }
 
     save_dict_to_json(output_data, circuit_path / "info.json")
     save_dict_to_json(config, circuit_path / "config.json")

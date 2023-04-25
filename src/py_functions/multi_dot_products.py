@@ -1,27 +1,32 @@
-def unroll_and_compute(
-    x: list[int], x_shape: tuple[int, int], y: list[int]
-) -> list[int]:
+def multi_dot_product_average(
+    x: list[int],
+    x_shape: tuple[int, int],
+    y: list[int],
+) -> dict[str, int]:
+    result_dict = {"result": 0, "n_additions": 0, "n_multiplications": 0}
+
+    # Dot products
     x_shape = (int(x_shape[0]), int(x_shape[1]))
     result = [0] * int(x_shape[1])
     for i in range(x_shape[1]):
         start = i * x_shape[0]
         end = start + x_shape[0]
         x_slice = x[start:end]
-        result[i] = sum([x_slice[j] * y[j] for j in range(x_shape[0])])
-    return result
+        for j in range(x_shape[0]):
+            # Count the number of additions and multiplications
+            result[i] += x_slice[j] * y[j]
+            result_dict["n_multiplications"] += 1
+            result_dict["n_additions"] += 1
 
+    # Average
+    average = sum(result) // len(result)
 
-def average(x: list[int]) -> int:
-    return sum(x) // len(x)
+    result_dict["n_additions"] += len(result) - 1
+    result_dict["n_multiplications"] += 1
 
+    result_dict["result"] = average
 
-def multi_dot_product_average(
-    data_1: list[int],
-    data_1_shape: tuple[int, int],
-    data_2_values: list[int],
-) -> int:
-    dot_products = unroll_and_compute(data_1, data_1_shape, data_2_values)
-    return int(average(dot_products))
+    return result_dict
 
 
 # d1 = [
