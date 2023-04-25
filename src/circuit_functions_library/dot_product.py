@@ -12,21 +12,24 @@ D2_TYPE = "u8"
 DOT_TYPE = f"u{2*int(D1_TYPE[1])}"
 DIV_TYPE = f"u{4*int(D1_TYPE[1])}"
 
-print(DOT_TYPE)
-print(DIV_TYPE)
-
 
 def generate_dot_product_multi(
     data_1_name: str,
     data_1_info: dict,
     data_2_name: str,
-    data_2: dict,
+    data_2_info: dict,
     aggregator: Aggregator,
 ) -> str:
-    DOT_TYPE = f"u{2*int(D1_TYPE[1])}"
-    DIV_TYPE = f"u{4*int(D1_TYPE[1])}"
-    D1_SHAPE_1 = data_1_info["shape"][1]
+    D1_SIZE = len(data_1_info["values"])
     D1_SHAPE_0 = data_1_info["shape"][0]
+    D1_SHAPE_1 = data_1_info["shape"][1]
+    D1_TYPE = data_1_info["format"]
+    D2_SIZE = len(data_2_info["values"])
+    D2_SHAPE_0 = data_2_info["shape"][0]
+    D2_SHAPE_1 = data_2_info["shape"][1]
+    D2_TYPE = data_2_info["format"]
+    DOT_TYPE = f"u{2*int(data_1_info['format'][1:])}"
+    DIV_TYPE = f"u{4*int(data_1_info['format'][1:])}"
 
     # Noir code generation
     noir_code = f"""

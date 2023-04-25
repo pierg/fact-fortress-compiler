@@ -1,15 +1,13 @@
 from pathlib import Path
-from cli import gen_circuit
 from py_functions.multi_dot_products import multi_dot_product_average
 from data_generators.generic_data import generate_data
 from src.shared import Aggregator, Functions
-from shared import circuits_path
 from utils.authorities import generate_authority
 from utils.generate_configs import generate_configuration_file
 from utils.sign_data import sign_data
 
 
-def generate_circuit(
+def general_config_generator(
     name: str = "gen_circuit",
     d1_bits: int = 8,
     d1_shape: list[int] = [4, 3],
@@ -17,9 +15,16 @@ def generate_circuit(
     d2_bits: int = 32,
     d2_shape: list[int] = [4, 3],
     d2_range: list[int] | None = [0, 8],
-    path: Path = circuits_path,
-):
-    authority = generate_authority("Authority_A")
+    provenance: bool = True,
+) -> Path:
+    authority = {
+        "name": "no_authority",
+        "pub_key_x": "0x",
+        "pub_key_y": "0x",
+        "private_key": "0x",
+    }
+    if provenance:
+        authority = generate_authority("Authority_A")
 
     if d1_range is None:
         d1_range = [0, 2**d1_bits]
@@ -48,7 +53,10 @@ def generate_circuit(
 
     data = generate_data(data_format)
 
-    data_hash, signature = sign_data(authority, data)
+    signature = [i for i in range(0, 64)]
+    data_hash = [i for i in range(0, 32)]
+    if provenance:
+        data_hash, signature = sign_data(authority, data)
 
     function = {
         "name": Functions.MULTIPLE_DOT_PRODUCT.value,
@@ -72,8 +80,7 @@ def generate_circuit(
         data=data,
         function=function,
         info=result,
+        provenance=provenance,
     )
 
-    gen_circuit(config_path, path)
-
-    return result
+    return config_path

@@ -1,4 +1,4 @@
-from cli import gen_circuit
+from utils.generate_circuit import generate_circuit
 from data_generators import generate_multi_dimensional_data
 from py_functions.multi_dot_products import multi_dot_product_average
 from src.shared import Aggregator, Functions
@@ -39,11 +39,12 @@ function = {
 """
 Perform the function on the data in python so that we can compare the result with the one proved by the circuit in Zero Knowledge.
 """
-expected_result = multi_dot_product_average(
-    data_1=example_data["d1"]["values"],
-    data_1_shape=example_data["d1"]["shape"],
-    data_2_values=example_data["d2"]["values"],
-)["result"]
+computation_output = multi_dot_product_average(
+    x=example_data["d1"]["values"],
+    x_shape=example_data["d1"]["shape"],
+    y=example_data["d2"]["values"],
+)
+expected_result, info = computation_output["result"], computation_output["info"]
 
 
 """
@@ -58,6 +59,7 @@ config_path = generate_configuration_file(
     statement=expected_result,
     data=example_data,
     function=function,
+    info=info,
 )
 
 """
@@ -71,7 +73,7 @@ The circuit compiles and generate valid proofs. Specifically it proofs:
         - Checks that the chosen function applied on the data results in the expected statement
 """
 
-gen_circuit(config_path)
+generate_circuit(config_path)
 
 
 """

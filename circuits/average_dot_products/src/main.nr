@@ -107,11 +107,11 @@ fn perform_computation_on_data(data: data::Data) -> u16 {
 
 
 
-
 fn main(
     public : pub data::Public,    // Data containing the expected result.
     private : data::Private,    // Data to be verified and processed.
-    ){
+    ) -> pub u16{
+
 
     // Verify the authenticity and integrity of the private data.
     constrain verify_data_provenance(private.data, public.keys, private.provenance) == 1;
@@ -121,6 +121,9 @@ fn main(
 
     // Verify that the obtained result matches the value specified in the public statement.
     constrain result == public.statement.value;
+
+    // Return result, for debugging
+    result
 
 }
 

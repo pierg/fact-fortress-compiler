@@ -1,3 +1,4 @@
+import json
 from pathlib import Path
 from utils.genhash import get_hash_simple
 from utils.sign import sign
@@ -7,19 +8,22 @@ import os
 from shared import circuits_path
 
 
-def generate_circuit(config: dict, circuit_path: Path = circuits_path):
+def generate_circuit(config_path: Path, circuits_folder: Path = circuits_path):
     """
     Generates the circuit and the noir files for the given config.
-
     """
 
-    noir_circuit_path = circuit_path / config["name"]
+    # Read from JSON and create dict
+    with open(config_path) as f:
+        configuration = json.load(f)
+
+    noir_circuit_path = circuits_folder / configuration["name"]
+
     if os.path.exists(noir_circuit_path):
-        print(f"{noir_circuit_path} is not empty")
+        print(f"{noir_circuit_path} circuit has already been generated")
         return
 
-    print("generating")
     generate_noir_files(
-        config=config,
+        config=configuration,
         circuit_path=noir_circuit_path,
     )

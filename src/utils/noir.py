@@ -33,9 +33,7 @@ def generate_info_file(config: dict, circuit_path: Path):
     if "info" in config:
         output_data = {
             "function": {"name": function_name, "description": function_description},
-            "n_additions": config["info"]["n_additions"],
-            "n_multiplications": config["info"]["n_multiplications"],
-            "data": data,
+            "info": config["info"],
         }
     else:
         output_data = {
@@ -142,8 +140,16 @@ def generate_data_file(config: dict, circuit_path: Path):
             f.write(
                 "global {}_SIZE: Field = {};\n".format(key.upper(), len(d["values"]))
             )
-            f.write("global {}_SHAPE_0: u8 = {};\n".format(key.upper(), d["shape"][0]))
-            f.write("global {}_SHAPE_1: u8 = {};\n".format(key.upper(), d["shape"][1]))
+            f.write(
+                "global {}_SHAPE_0: {} = {};\n".format(
+                    key.upper(), d["format"], d["shape"][0]
+                )
+            )
+            f.write(
+                "global {}_SHAPE_1: {} = {};\n".format(
+                    key.upper(), d["format"], d["shape"][1]
+                )
+            )
             if "precision" in d:
                 f.write(
                     "global {}_PRECISION: u4 = {};\n".format(
@@ -158,8 +164,10 @@ def generate_data_file(config: dict, circuit_path: Path):
         )
         f.write("\n")
         f.write("struct Data {\n")
+        D1_TYPE = 8
         for key in data:
             d = data[key]
+            D1_TYPE = int(d["format"][1:])
             f.write("    // {}\n".format(d["description"]))
             f.write("    {}: [{}; {}],\n".format(key, d["format"], len(d["values"])))
         f.write("}\n")
@@ -175,8 +183,7 @@ def generate_data_file(config: dict, circuit_path: Path):
         f.write("}\n")
         f.write("\n")
         f.write("struct Statement {\n")
-        # TODO: fix u16 to something related to the imput and function
-        f.write("    value: u16,\n")
+        f.write(f"    value: u{2*int(D1_TYPE)},\n")
         f.write("}\n")
         f.write("\n")
         f.write("struct Private {\n")
@@ -192,13 +199,114 @@ def generate_data_file(config: dict, circuit_path: Path):
     print(f"File saved: {file_path}")
 
 
-def generate_main_file(config: dict, circuit_path: Path):
+def generate_verify_data_provenance(config: dict) -> str:
+    """
+    Generate the Rust code for verifying the authenticity and integrity of data using the Schnorr signature scheme.
+
+    Args:
+        config (dict): The configuration dictionary containing the required parameters.
+
+    Returns:
+        str: The Rust code as a string.
+    """
+    code = """
+// Verify the authenticity and integrity of the data by concatenating it, 
+// computing its SHA256 hash, and verifying its Schnorr signature using the 
+// public keys and the signature from the provenance.
+fn verify_data_provenance(
+    data: data::Data,    // The data to be verified.
+    keys: data::Keys,    // The public keys to be used for the verification.
+    provenance: data::Provenance    // The provenance object containing the signature to be verified.
+) -> Field  {
+    // Concatenate all the data.
+    let flat_data = concatenate(data);
+
+    // Compute the SHA256 hash of the concatenated data.
+    let mut digest256 = std::sha256::digest(flat_data);
+
+    // Verify the Schnorr signature of the hash using the public keys and the signature from the provenance.
+    std::schnorr::verify_signature(
+        keys.pub_key_x, 
+        keys.pub_key_y, 
+        provenance.signature, 
+        digest256)
+}
+"""
+    return code
+
+
+def generate_concatenate(config: dict) -> str:
+    result = "// Concatenates the data into a byte array of size `DATA_SIZE`.\n"
+    result += "// This function returns the concatenated byte array.\n"
+    result += "mod data;\n\n"
+    result += "fn concatenate(data: data::Data) -> [u8; data::DATA_SIZE]  {\n"
+    result += "    let mut result = [0; data::DATA_SIZE];\n"
+    result += "    let mut cur_i = 0;\n"
+    for key, value in config["data"].items():
+        result += f"    // {value['description']}\n"
+        result += f"    // Copy the contents of {key} into the byte array.\n"
+        result += f"    for i in 0..data::{key.upper()}_SIZE {{\n"
+        result += f"        result[cur_i] = data.{key}[i] as u8;\n"
+        result += "        cur_i = cur_i + 1;\n"
+        result += "    }\n"
+    result += "    result\n"
+    result += "}\n"
+    return result
+
+
+def generate_main(config: dict) -> str:
+    result = (
+        "// Verify the authenticity and integrity of the data by concatenating it, \n"
+    )
+    result += (
+        "// computing its SHA256 hash, and verifying its Schnorr signature using the \n"
+    )
+    result += "// public keys and the signature from the provenance.\n"
+    result += "fn verify_data_provenance(\n"
+    result += "    data: data::Data,    // The data to be verified.\n"
+    result += (
+        "    keys: data::Keys,    // The public keys to be used for the verification.\n"
+    )
+    result += "    provenance: data::Provenance    // The provenance object containing the signature to be verified.\n"
+    result += ") -> Field  {\n"
+    result += "    // Concatenate all the data.\n"
+    result += "    let flat_data = concatenate(data);\n"
+    result += "    // Compute the SHA256 hash of the concatenated data.\n"
+    result += "    let mut digest256 = std::sha256::digest(flat_data);\n"
+    result += "    // Verify the Schnorr signature of the hash using the public keys and the signature from the provenance.\n"
+    result += "    std::schnorr::verify_signature(keys.pub_key_x, keys.pub_key_y, provenance.signature, digest256)\n"
+    result += "}\n\n"
+
+
+def generate_main(config: dict) -> str:
+    result = (
+        "// Verify the authenticity and integrity of the data by concatenating it, \n"
+    )
+    result += (
+        "// computing its SHA256 hash, and verifying its Schnorr signature using the \n"
+    )
+    result += "// public keys and the signature from the provenance.\n"
+    result += "fn verify_data_provenance(\n"
+    result += "    data: data::Data,    // The data to be verified.\n"
+    result += (
+        "    keys: data::Keys,    // The public keys to be used for the verification.\n"
+    )
+    result += "    provenance: data::Provenance    // The provenance object containing the signature to be verified.\n"
+    result += ") -> Field  {\n"
+    result += "    // Concatenate all the data.\n"
+    result += "    let flat_data = concatenate(data);\n"
+    result += "    // Compute the SHA256 hash of the concatenated data.\n"
+    result += "    let mut digest256 = std::sha256::digest(flat_data);\n"
+    result += "    // Verify the Schnorr signature of the hash using the public keys and the signature from the provenance.\n"
+    result += "    std::schnorr::verify_signature(keys.pub_key_x, keys.pub_key_y, provenance.signature, digest256)\n"
+    result += "}\n\n"
+
+
+def compose_main_file(config: dict, circuit_path: Path):
     function_string = ""
     if "function" in config:
         # add funtion to the main file
         function_name = config["function"]["name"]
-        print(function_name)
-        print(Functions.MULTIPLE_DOT_PRODUCT.value)
         if function_name == Functions.MULTIPLE_DOT_PRODUCT.value:
             aggregator_name = config["function"]["aggregator"]
             if aggregator_name == Aggregator.AVERAGE.value:
@@ -315,5 +423,158 @@ fn main(
 
         """
         )
+
+    print(f"File saved: {file_path}")
+
+
+def generate_main_file(config: dict, circuit_path: Path):
+    function_string = ""
+    if "function" in config:
+        # add funtion to the main file
+        function_name = config["function"]["name"]
+        if function_name == Functions.MULTIPLE_DOT_PRODUCT.value:
+            aggregator_name = config["function"]["aggregator"]
+            if aggregator_name == Aggregator.AVERAGE.value:
+                d_labels = extract_data_labels_from_config(config)
+                if len(d_labels) != 2:
+                    raise ValueError(
+                        f"Aggregator {aggregator_name} requires exactly 2 data labels."
+                    )
+                function_string = generate_dot_product_multi(
+                    d_labels[0].upper(),
+                    config["data"][d_labels[0]],
+                    d_labels[1].upper(),
+                    config["data"][d_labels[1]],
+                    aggregator=Aggregator.AVERAGE,
+                )
+            elif aggregator_name == Aggregator.SUM.value:
+                pass
+        else:
+            raise ValueError(f"Function {function_name} not supported.")
+
+    file_path = circuit_path / "src" / "main.nr"
+    if not os.path.exists(file_path.parent):
+        os.makedirs(file_path.parent)
+    with open(str(file_path), "w") as f:
+        data = config["data"]
+        f.write("use dep::std;\n")
+        f.write("mod data;\n\n")
+
+        if config["provenance"]:
+            f.write("// Concatenates the data into a byte array of size `DATA_SIZE`.")
+            f.write("// This function returns the concatenated byte array.")
+            f.write("mod data;\n\n")
+            f.write("fn concatenate(data: data::Data) -> [u8; data::DATA_SIZE]  {\n")
+            f.write("    let mut result = [0; data::DATA_SIZE];\n")
+            f.write("    let mut cur_i = 0;\n")
+
+            for key, value in data.items():
+                f.write(f"    // {value['description']}\n")
+                f.write(f"    // Copy the contents of {key} into the byte array.\n")
+                f.write(f"    for i in 0..data::{key.upper()}_SIZE {{\n")
+                f.write(f"        result[cur_i] = data.{key}[i] as u8;\n")
+                f.write("        cur_i = cur_i + 1;\n")
+                f.write("    }\n")
+            f.write("    result\n")
+            f.write("}\n")
+            f.write("\n\n")
+            f.write(
+                """
+// Verify the authenticity and integrity of the data by concatenating it, 
+// computing its SHA256 hash, and verifying its Schnorr signature using the 
+// public keys and the signature from the provenance.
+fn verify_data_provenance(
+    data: data::Data,    // The data to be verified.
+    keys: data::Keys,    // The public keys to be used for the verification.
+    provenance: data::Provenance    // The provenance object containing the signature to be verified.
+) -> Field  {
+    // Concatenate all the data.
+    let flat_data = concatenate(data);
+
+    // Compute the SHA256 hash of the concatenated data.
+    let mut digest256 = std::sha256::digest(flat_data);
+
+    // Verify the Schnorr signature of the hash using the public keys and the signature from the provenance.
+    std::schnorr::verify_signature(
+        keys.pub_key_x, 
+        keys.pub_key_y, 
+        provenance.signature, 
+        digest256)
+}
+"""
+            )
+        if function_string == "":
+            f.write(
+                """
+
+// Perform some meaningful operations on the data and return the result.
+fn perform_computation_on_data(data: data::Data) -> u8  {
+    // TODO: Implement the actual computation on the data.
+
+    // Dummy implementation that returns zero.
+    let mut result = data.d1[0];
+    """
+            )
+            f.write(f"    result = {config['statement']};")
+            f.write(
+                """
+
+    result as u8
+    }
+    """
+            )
+        else:
+            f.write(function_string)
+
+        D1_TYPE = 16
+        for key in data:
+            d = data[key]
+            D1_TYPE = int(d["format"][1:])
+
+        f.write(f"\n\nfn main(\n")
+        f.write(
+            f"    public : pub data::Public,    // Data containing the expected result.\n"
+        )
+        f.write(
+            f"    private : data::Private,    // Data to be verified and processed.\n"
+        )
+        f.write(f"    ) -> pub u{2*int(D1_TYPE)}{{\n")
+        if config["provenance"]:
+            f.write(
+                """
+
+    // Verify the authenticity and integrity of the private data.
+    constrain verify_data_provenance(private.data, public.keys, private.provenance) == 1;
+
+    // Perform some meaningful operations on the private data.
+    let result = perform_computation_on_data(private.data);
+
+    // Verify that the obtained result matches the value specified in the public statement.
+    constrain result == public.statement.value;
+
+    // Return result, for debugging
+    result
+
+}
+
+        """
+            )
+        else:
+            f.write(
+                """
+
+    // Perform some meaningful operations on the private data.
+    let result = perform_computation_on_data(private.data);
+
+    // Verify that the obtained result matches the value specified in the public statement.
+    constrain result == public.statement.value;
+
+    // Return result, for debugging
+    result
+
+}
+
+        """
+            )
 
     print(f"File saved: {file_path}")

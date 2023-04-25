@@ -1,7 +1,10 @@
-from circuit_gen import generate_circuit
+from utils.generate_circuit import generate_circuit
+from utils.config_generator import general_config_generator
 from shared import performance_path
 import subprocess
 import time
+import argparse
+
 
 # import psutil
 import os
@@ -17,25 +20,31 @@ else:
     platfplatform_useorm = "unknown"
 
 
-# mem_size = psutil.virtual_memory().total
-
-
 def generate(bits=8, rng=[10, 100], step=10, path=performance_path):
     for i in range(rng[0], rng[1], step):
-        generate_circuit(
+        config_path = general_config_generator(
             name="circuit_{}_{}_{}".format(bits, i, step),
             d1_bits=bits,
             d1_shape=[2, int(i / 2)],
             d2_bits=bits,
             d2_shape=[2, 1],
-            path=path,
+            provenance=False,
         )
+        generate_circuit(config_path, performance_path)
 
 
 if __name__ == "__main__":
-    bits = 8
-    rng = [4, 100]
-    step = 4
+    parser = argparse.ArgumentParser(description="Script description")
+    parser.add_argument("--bits", type=int, default=16, help="Number of bits")
+    parser.add_argument(
+        "--rng", type=int, nargs=2, default=[10, 100], help="Range of values"
+    )
+    parser.add_argument("--step", type=int, default=50, help="Step size")
+    args = parser.parse_args()
+
+    bits = args.bits
+    rng = args.rng
+    step = args.step
 
     """Generate circuits"""
     generate(bits, rng, step, path=performance_path)
@@ -53,39 +62,41 @@ if __name__ == "__main__":
         # If the file doesn't exist, create a new dictionary
         times = {}
 
-    signature = f"{platform_use}"
-
-    print(times)
+    machine_platform = f"{platform_use}"
 
     """Navigate to the directory where the circuits are stored"""
     for i in range(rng[0], rng[1], step):
         if str(i) in times:
-            if signature in times[str(i)]:
+            if machine_platform in times[str(i)]:
+                print(
+                    f"Performance for {str(i)} on {machine_platform} already computed"
+                )
                 continue
-        times[str(i)] = {signature: {}}
-        time_info = times[str(i)][signature]
+        times[str(i)] = {machine_platform: {}}
+        time_info = times[str(i)][machine_platform]
         circuit_dir = performance_path / "circuit_{}_{}_{}".format(bits, i, step)
 
         with open(circuit_dir / "info.json", "r") as f:
             info = json.load(f)
-            time_info["n_multiplications"] = info["n_multiplications"]
-            time_info["n_additions"] = info["n_additions"]
+            time_info["info"] = info["info"]["info"]
 
+        print("Generating proof...")
         """Generate the proof"""
         start_time = time.time()
         subprocess.run(["nargo", "prove", "p"], cwd=circuit_dir)
         end_time = time.time()
         proving_time = end_time - start_time
+        print(f"Proof generated in {round(proving_time, 2)} seconds")
 
+        print("Verifying proof...")
         """Verify the proof"""
         start_time = time.time()
         subprocess.run(["nargo", "verify", "p"], cwd=circuit_dir)
         end_time = time.time()
         verification_time = end_time - start_time
+        print(f"Proof verified in {round(verification_time, 2)} seconds")
 
         time_info["proving_time"] = round(proving_time, 2)
         time_info["verification_time"] = round(proving_time, 2)
 
-        print("Times Computed")
-        print(time_info)
         save_dict_to_json(times, file_path=performance_path / "times.json")

@@ -3,7 +3,7 @@ def multi_dot_product_average(
     x_shape: tuple[int, int],
     y: list[int],
 ) -> dict[str, int]:
-    result_dict = {"result": 0, "n_additions": 0, "n_multiplications": 0}
+    result_dict = {"result": 0, "info": {"n_additions": 0, "n_multiplications": 0}}
 
     # Dot products
     x_shape = (int(x_shape[0]), int(x_shape[1]))
@@ -15,14 +15,14 @@ def multi_dot_product_average(
         for j in range(x_shape[0]):
             # Count the number of additions and multiplications
             result[i] += x_slice[j] * y[j]
-            result_dict["n_multiplications"] += 1
-            result_dict["n_additions"] += 1
+            result_dict["info"]["n_multiplications"] += 1
+            result_dict["info"]["n_additions"] += 1
 
     # Average
     average = sum(result) // len(result)
 
-    result_dict["n_additions"] += len(result) - 1
-    result_dict["n_multiplications"] += 1
+    result_dict["info"]["n_additions"] += len(result) - 1
+    result_dict["info"]["n_multiplications"] += 1
 
     result_dict["result"] = average
 

@@ -14,6 +14,7 @@ def generate_configuration_file(
     function: dict,
     data: dict,
     info: dict | None,
+    provenance: bool = True,
 ) -> Path:
     authorities_dict = {}
     for i, d in enumerate(authorities):
@@ -29,5 +30,6 @@ def generate_configuration_file(
         "function": function,
         "data": data,
         "info": info,
+        "provenance": provenance,
     }
     return save_dict_to_json(json_data, config_path / (name + ".json"))
