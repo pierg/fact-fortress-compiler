@@ -2,7 +2,8 @@ from circuit_gen import generate_circuit
 from shared import performance_path
 import subprocess
 import time
-import psutil
+
+# import psutil
 import os
 import json
 import platform
@@ -16,7 +17,7 @@ else:
     platfplatform_useorm = "unknown"
 
 
-mem_size = psutil.virtual_memory().total
+# mem_size = psutil.virtual_memory().total
 
 
 def generate(bits=8, rng=[10, 100], step=10, path=performance_path):
@@ -52,7 +53,7 @@ if __name__ == "__main__":
         # If the file doesn't exist, create a new dictionary
         times = {}
 
-    signature = f"{platform_use}_{mem_size}"
+    signature = f"{platform_use}"
 
     print(times)
 
