@@ -45,8 +45,10 @@ if __name__ == "__main__":
         end_time = time.time()
         verification_time = end_time - start_time
 
-        times[str(i)][circuit_dir] = {
-            "proving_time": proving_time,
-            "verification_time": verification_time,
+        times[str(i)] = {
+            "proving_time": round(proving_time, 2),
+            "verification_time": round(verification_time, 2),
         }
+        print("Times Computed")
+        print(times[str(i)])
         save_dict_to_json(times, file_path=performance_path / "times.json")
