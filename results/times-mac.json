@@ -1,0 +1,292 @@
+{
+    "10": {
+        "mac": {
+            "info": {
+                "n_additions": 14,
+                "n_multiplications": 11
+            },
+            "proving_time": 1.37,
+            "verification_time": 1.05
+        }
+    },
+    "60": {
+        "mac": {
+            "info": {
+                "n_additions": 89,
+                "n_multiplications": 61
+            },
+            "proving_time": 1.43,
+            "verification_time": 1.22
+        }
+    },
+    "110": {
+        "mac": {
+            "info": {
+                "n_additions": 164,
+                "n_multiplications": 111
+            },
+            "proving_time": 2.04,
+            "verification_time": 1.51
+        }
+    },
+    "160": {
+        "mac": {
+            "info": {
+                "n_additions": 239,
+                "n_multiplications": 161
+            },
+            "proving_time": 1.92,
+            "verification_time": 1.46
+        }
+    },
+    "210": {
+        "mac": {
+            "info": {
+                "n_additions": 314,
+                "n_multiplications": 211
+            },
+            "proving_time": 1.99,
+            "verification_time": 1.5
+        }
+    },
+    "260": {
+        "mac": {
+            "info": {
+                "n_additions": 389,
+                "n_multiplications": 261
+            },
+            "proving_time": 2.75,
+            "verification_time": 2.0
+        }
+    },
+    "310": {
+        "mac": {
+            "info": {
+                "n_additions": 464,
+                "n_multiplications": 311
+            },
+            "proving_time": 2.77,
+            "verification_time": 1.98
+        }
+    },
+    "360": {
+        "mac": {
+            "info": {
+                "n_additions": 539,
+                "n_multiplications": 361
+            },
+            "proving_time": 2.86,
+            "verification_time": 2.02
+        }
+    },
+    "410": {
+        "mac": {
+            "info": {
+                "n_additions": 614,
+                "n_multiplications": 411
+            },
+            "proving_time": 2.87,
+            "verification_time": 1.96
+        }
+    },
+    "460": {
+        "mac": {
+            "info": {
+                "n_additions": 689,
+                "n_multiplications": 461
+            },
+            "proving_time": 4.58,
+            "verification_time": 2.9
+        }
+    },
+    "510": {
+        "mac": {
+            "info": {
+                "n_additions": 764,
+                "n_multiplications": 511
+            },
+            "proving_time": 4.5,
+            "verification_time": 2.86
+        }
+    },
+    "560": {
+        "mac": {
+            "info": {
+                "n_additions": 839,
+                "n_multiplications": 561
+            },
+            "proving_time": 4.5,
+            "verification_time": 2.9
+        }
+    },
+    "610": {
+        "mac": {
+            "info": {
+                "n_additions": 914,
+                "n_multiplications": 611
+            },
+            "proving_time": 4.52,
+            "verification_time": 2.88
+        }
+    },
+    "660": {
+        "mac": {
+            "info": {
+                "n_additions": 989,
+                "n_multiplications": 661
+            },
+            "proving_time": 4.5,
+            "verification_time": 3.03
+        }
+    },
+    "710": {
+        "mac": {
+            "info": {
+                "n_additions": 1064,
+                "n_multiplications": 711
+            },
+            "proving_time": 4.61,
+            "verification_time": 2.95
+        }
+    },
+    "760": {
+        "mac": {
+            "info": {
+                "n_additions": 1139,
+                "n_multiplications": 761
+            },
+            "proving_time": 4.55,
+            "verification_time": 3.14
+        }
+    },
+    "810": {
+        "mac": {
+            "info": {
+                "n_additions": 1214,
+                "n_multiplications": 811
+            },
+            "proving_time": 4.67,
+            "verification_time": 3.01
+        }
+    },
+    "860": {
+        "mac": {
+            "info": {
+                "n_additions": 1289,
+                "n_multiplications": 861
+            },
+            "proving_time": 4.65,
+            "verification_time": 2.92
+        }
+    },
+    "910": {
+        "mac": {
+            "info": {
+                "n_additions": 1364,
+                "n_multiplications": 911
+            },
+            "proving_time": 4.6,
+            "verification_time": 2.98
+        }
+    },
+    "960": {
+        "mac": {
+            "info": {
+                "n_additions": 1439,
+                "n_multiplications": 961
+            },
+            "proving_time": 7.66,
+            "verification_time": 4.67
+        }
+    },
+    "1010": {
+        "mac": {
+            "info": {
+                "n_additions": 1514,
+                "n_multiplications": 1011
+            },
+            "proving_time": 7.75,
+            "verification_time": 4.73
+        }
+    },
+    "1060": {
+        "mac": {
+            "info": {
+                "n_additions": 1589,
+                "n_multiplications": 1061
+            },
+            "proving_time": 7.74,
+            "verification_time": 4.72
+        }
+    },
+    "1110": {
+        "mac": {
+            "info": {
+                "n_additions": 1664,
+                "n_multiplications": 1111
+            },
+            "proving_time": 7.76,
+            "verification_time": 4.72
+        }
+    },
+    "1160": {
+        "mac": {
+            "info": {
+                "n_additions": 1739,
+                "n_multiplications": 1161
+            },
+            "proving_time": 7.79,
+            "verification_time": 4.73
+        }
+    },
+    "1210": {
+        "mac": {
+            "info": {
+                "n_additions": 1814,
+                "n_multiplications": 1211
+            },
+            "proving_time": 7.9,
+            "verification_time": 4.8
+        }
+    },
+    "1260": {
+        "mac": {
+            "info": {
+                "n_additions": 1889,
+                "n_multiplications": 1261
+            },
+            "proving_time": 7.92,
+            "verification_time": 4.77
+        }
+    },
+    "1310": {
+        "mac": {
+            "info": {
+                "n_additions": 1964,
+                "n_multiplications": 1311
+            },
+            "proving_time": 7.97,
+            "verification_time": 4.89
+        }
+    },
+    "1360": {
+        "mac": {
+            "info": {
+                "n_additions": 2039,
+                "n_multiplications": 1361
+            },
+            "proving_time": 8.2,
+            "verification_time": 4.83
+        }
+    },
+    "1410": {
+        "mac": {
+            "info": {
+                "n_additions": 2114,
+                "n_multiplications": 1411
+            },
+            "proving_time": 7.87,
+            "verification_time": 4.96
+        }
+    }
+}

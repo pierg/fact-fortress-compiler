@@ -1,0 +1,1 @@
+/opt/homebrew/Cellar/python@3.11/3.11.3/Frameworks/Python.framework/Versions/3.11/Resources/Python.app/Contents/MacOS/Python: can't open file '/Users/pier/Projects/fact-fortress-circuits/performance/./src/performance.py': [Errno 2] No such file or directory

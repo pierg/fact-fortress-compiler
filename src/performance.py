@@ -90,5 +90,6 @@ if __name__ == "__main__":
 
         time_info["proving_time"] = round(proving_time, 2)
         time_info["verification_time"] = round(verification_time, 2)
+        time_info["proof_size"] = os.path.getsize(circuit_dir / "proofs" / "p.proof")
 
         save_dict_to_json(times, file_path=times_file_path)
