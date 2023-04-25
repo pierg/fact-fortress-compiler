@@ -89,6 +89,6 @@ if __name__ == "__main__":
         print(f"Proof verified in {round(verification_time, 2)} seconds")
 
         time_info["proving_time"] = round(proving_time, 2)
-        time_info["verification_time"] = round(proving_time, 2)
+        time_info["verification_time"] = round(verification_time, 2)
 
         save_dict_to_json(times, file_path=performance_path / "times.json")
