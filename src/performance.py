@@ -4,9 +4,6 @@ from shared import performance_path
 import subprocess
 import time
 import argparse
-
-
-# import psutil
 import os
 import json
 import platform
@@ -18,19 +15,6 @@ elif platform.system() == "Linux":
     platform_use = "linux"
 else:
     platfplatform_useorm = "unknown"
-
-
-def generate(bits=8, rng=[10, 100], step=10, path=performance_path):
-    for i in range(rng[0], rng[1], step):
-        config_path = general_config_generator(
-            name="circuit_{}_{}_{}".format(bits, i, step),
-            d1_bits=bits,
-            d1_shape=[2, int(i / 2)],
-            d2_bits=bits,
-            d2_shape=[2, 1],
-            provenance=False,
-        )
-        generate_circuit(config_path, performance_path)
 
 
 if __name__ == "__main__":
@@ -45,11 +29,6 @@ if __name__ == "__main__":
     bits = args.bits
     rng = args.rng
     step = args.step
-
-    """Generate circuits"""
-    generate(bits, rng, step, path=performance_path)
-
-    """Store proving and verification times in a dictionary"""
 
     file_path = performance_path / "times.json"
 
@@ -72,6 +51,19 @@ if __name__ == "__main__":
                     f"Performance for {str(i)} on {machine_platform} already computed"
                 )
                 continue
+
+        """Generate circuit"""
+        config_path = general_config_generator(
+            name="circuit_{}_{}_{}".format(bits, i, step),
+            d1_bits=bits,
+            d1_shape=[2, int(i / 2)],
+            d2_bits=bits,
+            d2_shape=[2, 1],
+            provenance=False,
+        )
+        generate_circuit(config_path, performance_path)
+
+        """Evaluate circuit"""
         times[str(i)] = {machine_platform: {}}
         time_info = times[str(i)][machine_platform]
         circuit_dir = performance_path / "circuit_{}_{}_{}".format(bits, i, step)
