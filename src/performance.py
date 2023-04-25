@@ -1,6 +1,6 @@
 from utils.generate_circuit import generate_circuit
 from utils.config_generator import general_config_generator
-from shared import performance_path
+from shared import performance_path, results_path
 import subprocess
 import time
 import argparse
@@ -14,7 +14,7 @@ if platform.system() == "Darwin":
 elif platform.system() == "Linux":
     platform_use = "linux"
 else:
-    platfplatform_useorm = "unknown"
+    platform_use = "unknown"
 
 
 if __name__ == "__main__":
@@ -30,12 +30,12 @@ if __name__ == "__main__":
     rng = args.rng
     step = args.step
 
-    file_path = performance_path / "times.json"
+    times_file_path = results_path / f"times-{platform_use}.json"
 
     # Check if the file exists
-    if os.path.exists(performance_path / file_path):
+    if os.path.exists(performance_path / times_file_path):
         # If the file exists, load it as a dictionary
-        with open(performance_path / file_path, "r") as f:
+        with open(performance_path / times_file_path, "r") as f:
             times = json.load(f)
     else:
         # If the file doesn't exist, create a new dictionary
@@ -91,4 +91,4 @@ if __name__ == "__main__":
         time_info["proving_time"] = round(proving_time, 2)
         time_info["verification_time"] = round(verification_time, 2)
 
-        save_dict_to_json(times, file_path=performance_path / "times.json")
+        save_dict_to_json(times, file_path=times_file_path)
