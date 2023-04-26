@@ -1,0 +1,1561 @@
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_10_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10_50 circuit has already been generated
+Generating proof...
+Proof generated in 1.2 seconds
+Verifying proof...
+Proof verified in 1.05 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_60_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_60_50 circuit has already been generated
+Generating proof...
+Proof generated in 1.49 seconds
+Verifying proof...
+Proof verified in 1.29 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_110_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_110_50 circuit has already been generated
+Generating proof...
+Proof generated in 1.98 seconds
+Verifying proof...
+Proof verified in 1.42 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_160_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_160_50 circuit has already been generated
+Generating proof...
+Proof generated in 1.92 seconds
+Verifying proof...
+Proof verified in 1.47 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_210_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_210_50 circuit has already been generated
+Generating proof...
+Proof generated in 1.92 seconds
+Verifying proof...
+Proof verified in 1.39 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_260_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_260_50 circuit has already been generated
+Generating proof...
+Proof generated in 2.74 seconds
+Verifying proof...
+Proof verified in 1.95 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_310_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_310_50 circuit has already been generated
+Generating proof...
+Proof generated in 2.8 seconds
+Verifying proof...
+Proof verified in 1.96 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_360_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_360_50 circuit has already been generated
+Generating proof...
+Proof generated in 2.87 seconds
+Verifying proof...
+Proof verified in 1.88 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_410_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_410_50 circuit has already been generated
+Generating proof...
+Proof generated in 2.82 seconds
+Verifying proof...
+Proof verified in 1.92 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_460_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_460_50 circuit has already been generated
+Generating proof...
+Proof generated in 4.38 seconds
+Verifying proof...
+Proof verified in 2.85 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_510_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_510_50 circuit has already been generated
+Generating proof...
+Proof generated in 4.43 seconds
+Verifying proof...
+Proof verified in 2.91 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_560_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_560_50 circuit has already been generated
+Generating proof...
+Proof generated in 4.53 seconds
+Verifying proof...
+Proof verified in 2.94 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_610_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_610_50 circuit has already been generated
+Generating proof...
+Proof generated in 4.6 seconds
+Verifying proof...
+Proof verified in 2.89 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_660_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_660_50 circuit has already been generated
+Generating proof...
+Proof generated in 4.58 seconds
+Verifying proof...
+Proof verified in 3.06 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_710_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_710_50 circuit has already been generated
+Generating proof...
+Proof generated in 4.54 seconds
+Verifying proof...
+Proof verified in 2.87 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_760_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_760_50 circuit has already been generated
+Generating proof...
+Proof generated in 4.52 seconds
+Verifying proof...
+Proof verified in 2.92 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_810_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_810_50 circuit has already been generated
+Generating proof...
+Proof generated in 4.53 seconds
+Verifying proof...
+Proof verified in 2.93 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_860_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_860_50 circuit has already been generated
+Generating proof...
+Proof generated in 4.67 seconds
+Verifying proof...
+Proof verified in 3.0 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_910_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_910_50 circuit has already been generated
+Generating proof...
+Proof generated in 4.58 seconds
+Verifying proof...
+Proof verified in 3.04 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_960_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_960_50 circuit has already been generated
+Generating proof...
+Proof generated in 8.15 seconds
+Verifying proof...
+Proof verified in 4.79 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1010_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1010_50 circuit has already been generated
+Generating proof...
+Proof generated in 7.99 seconds
+Verifying proof...
+Proof verified in 5.04 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1060_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1060_50 circuit has already been generated
+Generating proof...
+Proof generated in 8.02 seconds
+Verifying proof...
+Proof verified in 4.73 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1110_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1110_50 circuit has already been generated
+Generating proof...
+Proof generated in 7.83 seconds
+Verifying proof...
+Proof verified in 4.81 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1160_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1160_50 circuit has already been generated
+Generating proof...
+Proof generated in 7.84 seconds
+Verifying proof...
+Proof verified in 4.85 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1210_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1210_50 circuit has already been generated
+Generating proof...
+Proof generated in 7.9 seconds
+Verifying proof...
+Proof verified in 4.88 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1260_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1260_50 circuit has already been generated
+Generating proof...
+Proof generated in 8.0 seconds
+Verifying proof...
+Proof verified in 4.68 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1310_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1310_50 circuit has already been generated
+Generating proof...
+Proof generated in 7.79 seconds
+Verifying proof...
+Proof verified in 4.82 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1360_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1360_50 circuit has already been generated
+Generating proof...
+Proof generated in 7.94 seconds
+Verifying proof...
+Proof verified in 4.94 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1410_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1410_50 circuit has already been generated
+Generating proof...
+Proof generated in 8.05 seconds
+Verifying proof...
+Proof verified in 4.9 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1460_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1460_50 circuit has already been generated
+Generating proof...
+Proof generated in 8.1 seconds
+Verifying proof...
+Proof verified in 5.0 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1510_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1510_50 circuit has already been generated
+Generating proof...
+Proof generated in 8.04 seconds
+Verifying proof...
+Proof verified in 4.92 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1560_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1560_50 circuit has already been generated
+Generating proof...
+Proof generated in 7.98 seconds
+Verifying proof...
+Proof verified in 4.99 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1610_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1610_50 circuit has already been generated
+Generating proof...
+Proof generated in 7.95 seconds
+Verifying proof...
+Proof verified in 4.9 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1660_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1660_50 circuit has already been generated
+Generating proof...
+Proof generated in 7.99 seconds
+Verifying proof...
+Proof verified in 4.93 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1710_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1710_50 circuit has already been generated
+Generating proof...
+Proof generated in 8.11 seconds
+Verifying proof...
+Proof verified in 4.93 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1760_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1760_50 circuit has already been generated
+Generating proof...
+Proof generated in 8.12 seconds
+Verifying proof...
+Proof verified in 4.89 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1810_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1810_50 circuit has already been generated
+Generating proof...
+Proof generated in 8.01 seconds
+Verifying proof...
+Proof verified in 4.99 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1860_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1860_50 circuit has already been generated
+Generating proof...
+Proof generated in 8.2 seconds
+Verifying proof...
+Proof verified in 5.03 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1910_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1910_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.27 seconds
+Verifying proof...
+Proof verified in 8.25 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_1960_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_1960_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.3 seconds
+Verifying proof...
+Proof verified in 8.42 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2010_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2010_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.21 seconds
+Verifying proof...
+Proof verified in 8.41 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2060_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2060_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.3 seconds
+Verifying proof...
+Proof verified in 8.39 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2110_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2110_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.45 seconds
+Verifying proof...
+Proof verified in 8.81 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2160_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2160_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.52 seconds
+Verifying proof...
+Proof verified in 8.55 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2210_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2210_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.35 seconds
+Verifying proof...
+Proof verified in 8.6 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2260_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2260_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.4 seconds
+Verifying proof...
+Proof verified in 8.6 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2310_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2310_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.55 seconds
+Verifying proof...
+Proof verified in 8.53 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2360_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2360_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.61 seconds
+Verifying proof...
+Proof verified in 8.55 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2410_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2410_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.57 seconds
+Verifying proof...
+Proof verified in 8.69 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2460_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2460_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.45 seconds
+Verifying proof...
+Proof verified in 8.54 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2510_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2510_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.31 seconds
+Verifying proof...
+Proof verified in 8.75 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2560_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2560_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.72 seconds
+Verifying proof...
+Proof verified in 8.95 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2610_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2610_50 circuit has already been generated
+Generating proof...
+Proof generated in 15.0 seconds
+Verifying proof...
+Proof verified in 8.68 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2660_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2660_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.49 seconds
+Verifying proof...
+Proof verified in 8.67 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2710_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2710_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.61 seconds
+Verifying proof...
+Proof verified in 8.75 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2760_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2760_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.67 seconds
+Verifying proof...
+Proof verified in 8.8 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2810_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2810_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.88 seconds
+Verifying proof...
+Proof verified in 9.05 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2860_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2860_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.86 seconds
+Verifying proof...
+Proof verified in 8.89 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2910_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2910_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.9 seconds
+Verifying proof...
+Proof verified in 9.02 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_2960_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_2960_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.99 seconds
+Verifying proof...
+Proof verified in 9.04 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3010_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3010_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.94 seconds
+Verifying proof...
+Proof verified in 9.04 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3060_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3060_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.95 seconds
+Verifying proof...
+Proof verified in 9.02 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3110_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3110_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.93 seconds
+Verifying proof...
+Proof verified in 9.18 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3160_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3160_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.99 seconds
+Verifying proof...
+Proof verified in 9.11 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3210_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3210_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.9 seconds
+Verifying proof...
+Proof verified in 9.09 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3260_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3260_50 circuit has already been generated
+Generating proof...
+Proof generated in 15.03 seconds
+Verifying proof...
+Proof verified in 9.15 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3310_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3310_50 circuit has already been generated
+Generating proof...
+Proof generated in 14.95 seconds
+Verifying proof...
+Proof verified in 9.21 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3360_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3360_50 circuit has already been generated
+Generating proof...
+Proof generated in 15.11 seconds
+Verifying proof...
+Proof verified in 9.29 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3410_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3410_50 circuit has already been generated
+Generating proof...
+Proof generated in 15.21 seconds
+Verifying proof...
+Proof verified in 9.3 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3460_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3460_50 circuit has already been generated
+Generating proof...
+Proof generated in 15.19 seconds
+Verifying proof...
+Proof verified in 9.31 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3510_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3510_50 circuit has already been generated
+Generating proof...
+Proof generated in 15.19 seconds
+Verifying proof...
+Proof verified in 9.39 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3560_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3560_50 circuit has already been generated
+Generating proof...
+Proof generated in 15.33 seconds
+Verifying proof...
+Proof verified in 9.48 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3610_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3610_50 circuit has already been generated
+Generating proof...
+Proof generated in 15.39 seconds
+Verifying proof...
+Proof verified in 9.51 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3660_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3660_50 circuit has already been generated
+Generating proof...
+Proof generated in 15.44 seconds
+Verifying proof...
+Proof verified in 9.49 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3710_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3710_50 circuit has already been generated
+Generating proof...
+Proof generated in 15.46 seconds
+Verifying proof...
+Proof verified in 9.54 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3760_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3760_50 circuit has already been generated
+Generating proof...
+Proof generated in 15.47 seconds
+Verifying proof...
+Proof verified in 9.59 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3810_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3810_50 circuit has already been generated
+Generating proof...
+Proof generated in 15.75 seconds
+Verifying proof...
+Proof verified in 9.68 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3860_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3860_50 circuit has already been generated
+Generating proof...
+Proof generated in 27.18 seconds
+Verifying proof...
+Proof verified in 15.99 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3910_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3910_50 circuit has already been generated
+Generating proof...
+Proof generated in 27.66 seconds
+Verifying proof...
+Proof verified in 16.15 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_3960_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_3960_50 circuit has already been generated
+Generating proof...
+Proof generated in 27.93 seconds
+Verifying proof...
+Proof verified in 16.21 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4010_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4010_50 circuit has already been generated
+Generating proof...
+Proof generated in 27.93 seconds
+Verifying proof...
+Proof verified in 16.67 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4060_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4060_50 circuit has already been generated
+Generating proof...
+Proof generated in 27.87 seconds
+Verifying proof...
+Proof verified in 16.57 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4110_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4110_50 circuit has already been generated
+Generating proof...
+Proof generated in 27.8 seconds
+Verifying proof...
+Proof verified in 16.4 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4160_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4160_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.07 seconds
+Verifying proof...
+Proof verified in 16.51 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4210_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4210_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.16 seconds
+Verifying proof...
+Proof verified in 17.04 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4260_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4260_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.23 seconds
+Verifying proof...
+Proof verified in 16.67 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4310_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4310_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.14 seconds
+Verifying proof...
+Proof verified in 16.8 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4360_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4360_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.08 seconds
+Verifying proof...
+Proof verified in 16.69 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4410_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4410_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.12 seconds
+Verifying proof...
+Proof verified in 16.79 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4460_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4460_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.01 seconds
+Verifying proof...
+Proof verified in 16.89 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4510_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4510_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.18 seconds
+Verifying proof...
+Proof verified in 16.96 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4560_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4560_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.21 seconds
+Verifying proof...
+Proof verified in 16.82 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4610_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4610_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.05 seconds
+Verifying proof...
+Proof verified in 16.99 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4660_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4660_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.53 seconds
+Verifying proof...
+Proof verified in 17.05 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4710_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4710_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.64 seconds
+Verifying proof...
+Proof verified in 17.14 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4760_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4760_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.15 seconds
+Verifying proof...
+Proof verified in 16.95 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4810_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4810_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.88 seconds
+Verifying proof...
+Proof verified in 17.27 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4860_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4860_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.02 seconds
+Verifying proof...
+Proof verified in 17.34 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4910_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4910_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.19 seconds
+Verifying proof...
+Proof verified in 17.44 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_4960_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_4960_50 circuit has already been generated
+Generating proof...
+Proof generated in 28.77 seconds
+Verifying proof...
+Proof verified in 17.36 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5010_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5010_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.08 seconds
+Verifying proof...
+Proof verified in 17.56 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5060_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5060_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.28 seconds
+Verifying proof...
+Proof verified in 17.7 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5110_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5110_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.47 seconds
+Verifying proof...
+Proof verified in 18.12 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5160_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5160_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.22 seconds
+Verifying proof...
+Proof verified in 17.8 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5210_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5210_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.43 seconds
+Verifying proof...
+Proof verified in 17.86 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5260_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5260_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.4 seconds
+Verifying proof...
+Proof verified in 17.81 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5310_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5310_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.37 seconds
+Verifying proof...
+Proof verified in 17.88 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5360_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5360_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.47 seconds
+Verifying proof...
+Proof verified in 18.03 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5410_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5410_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.6 seconds
+Verifying proof...
+Proof verified in 18.11 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5460_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5460_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.4 seconds
+Verifying proof...
+Proof verified in 18.18 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5510_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5510_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.61 seconds
+Verifying proof...
+Proof verified in 18.27 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5560_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5560_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.73 seconds
+Verifying proof...
+Proof verified in 18.71 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5610_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5610_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.83 seconds
+Verifying proof...
+Proof verified in 18.51 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5660_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5660_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.79 seconds
+Verifying proof...
+Proof verified in 18.41 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5710_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5710_50 circuit has already been generated
+Generating proof...
+Proof generated in 29.92 seconds
+Verifying proof...
+Proof verified in 18.78 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5760_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5760_50 circuit has already been generated
+Generating proof...
+Proof generated in 30.16 seconds
+Verifying proof...
+Proof verified in 18.59 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5810_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5810_50 circuit has already been generated
+Generating proof...
+Proof generated in 30.18 seconds
+Verifying proof...
+Proof verified in 18.47 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5860_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5860_50 circuit has already been generated
+Generating proof...
+Proof generated in 30.35 seconds
+Verifying proof...
+Proof verified in 18.63 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5910_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5910_50 circuit has already been generated
+Generating proof...
+Proof generated in 30.12 seconds
+Verifying proof...
+Proof verified in 18.89 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_5960_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_5960_50 circuit has already been generated
+Generating proof...
+Proof generated in 30.34 seconds
+Verifying proof...
+Proof verified in 19.05 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6010_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6010_50 circuit has already been generated
+Generating proof...
+Proof generated in 30.34 seconds
+Verifying proof...
+Proof verified in 18.9 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6060_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6060_50 circuit has already been generated
+Generating proof...
+Proof generated in 30.33 seconds
+Verifying proof...
+Proof verified in 19.18 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6110_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6110_50 circuit has already been generated
+Generating proof...
+Proof generated in 30.41 seconds
+Verifying proof...
+Proof verified in 18.95 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6160_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6160_50 circuit has already been generated
+Generating proof...
+Proof generated in 30.58 seconds
+Verifying proof...
+Proof verified in 19.32 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6210_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6210_50 circuit has already been generated
+Generating proof...
+Proof generated in 30.4 seconds
+Verifying proof...
+Proof verified in 19.12 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6260_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6260_50 circuit has already been generated
+Generating proof...
+Proof generated in 30.72 seconds
+Verifying proof...
+Proof verified in 19.44 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6310_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6310_50 circuit has already been generated
+Generating proof...
+Proof generated in 30.95 seconds
+Verifying proof...
+Proof verified in 19.77 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6360_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6360_50 circuit has already been generated
+Generating proof...
+Proof generated in 31.2 seconds
+Verifying proof...
+Proof verified in 19.74 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6410_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6410_50 circuit has already been generated
+Generating proof...
+Proof generated in 30.82 seconds
+Verifying proof...
+Proof verified in 19.54 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6460_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6460_50 circuit has already been generated
+Generating proof...
+Proof generated in 31.13 seconds
+Verifying proof...
+Proof verified in 19.81 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6510_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6510_50 circuit has already been generated
+Generating proof...
+Proof generated in 31.33 seconds
+Verifying proof...
+Proof verified in 20.04 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6560_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6560_50 circuit has already been generated
+Generating proof...
+Proof generated in 30.94 seconds
+Verifying proof...
+Proof verified in 19.88 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6610_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6610_50 circuit has already been generated
+Generating proof...
+Proof generated in 31.24 seconds
+Verifying proof...
+Proof verified in 19.75 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6660_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6660_50 circuit has already been generated
+Generating proof...
+Proof generated in 31.87 seconds
+Verifying proof...
+Proof verified in 19.9 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6710_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6710_50 circuit has already been generated
+Generating proof...
+Proof generated in 31.59 seconds
+Verifying proof...
+Proof verified in 20.1 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6760_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6760_50 circuit has already been generated
+Generating proof...
+Proof generated in 31.32 seconds
+Verifying proof...
+Proof verified in 20.49 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6810_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6810_50 circuit has already been generated
+Generating proof...
+Proof generated in 31.4 seconds
+Verifying proof...
+Proof verified in 20.38 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6860_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6860_50 circuit has already been generated
+Generating proof...
+Proof generated in 32.2 seconds
+Verifying proof...
+Proof verified in 20.55 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6910_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6910_50 circuit has already been generated
+Generating proof...
+Proof generated in 31.89 seconds
+Verifying proof...
+Proof verified in 21.05 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_6960_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_6960_50 circuit has already been generated
+Generating proof...
+Proof generated in 32.38 seconds
+Verifying proof...
+Proof verified in 20.79 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7010_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7010_50 circuit has already been generated
+Generating proof...
+Proof generated in 32.85 seconds
+Verifying proof...
+Proof verified in 20.66 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7060_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7060_50 circuit has already been generated
+Generating proof...
+Proof generated in 31.52 seconds
+Verifying proof...
+Proof verified in 20.34 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7110_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7110_50 circuit has already been generated
+Generating proof...
+Proof generated in 31.77 seconds
+Verifying proof...
+Proof verified in 20.77 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7160_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7160_50 circuit has already been generated
+Generating proof...
+Proof generated in 32.61 seconds
+Verifying proof...
+Proof verified in 21.04 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7210_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7210_50 circuit has already been generated
+Generating proof...
+Proof generated in 32.29 seconds
+Verifying proof...
+Proof verified in 21.01 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7260_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7260_50 circuit has already been generated
+Generating proof...
+Proof generated in 33.27 seconds
+Verifying proof...
+Proof verified in 21.48 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7310_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7310_50 circuit has already been generated
+Generating proof...
+Proof generated in 33.22 seconds
+Verifying proof...
+Proof verified in 21.48 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7360_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7360_50 circuit has already been generated
+Generating proof...
+Proof generated in 32.26 seconds
+Verifying proof...
+Proof verified in 21.06 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7410_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7410_50 circuit has already been generated
+Generating proof...
+Proof generated in 32.41 seconds
+Verifying proof...
+Proof verified in 21.04 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7460_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7460_50 circuit has already been generated
+Generating proof...
+Proof generated in 32.73 seconds
+Verifying proof...
+Proof verified in 21.62 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7510_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7510_50 circuit has already been generated
+Generating proof...
+Proof generated in 33.71 seconds
+Verifying proof...
+Proof verified in 22.26 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7560_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7560_50 circuit has already been generated
+Generating proof...
+Proof generated in 33.13 seconds
+Verifying proof...
+Proof verified in 21.88 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7610_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7610_50 circuit has already been generated
+Generating proof...
+Proof generated in 33.26 seconds
+Verifying proof...
+Proof verified in 21.75 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7660_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7660_50 circuit has already been generated
+Generating proof...
+Proof generated in 33.04 seconds
+Verifying proof...
+Proof verified in 21.53 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7710_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7710_50 circuit has already been generated
+Generating proof...
+Proof generated in 58.41 seconds
+Verifying proof...
+Proof verified in 35.86 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7760_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7760_50 circuit has already been generated
+Generating proof...
+Proof generated in 59.64 seconds
+Verifying proof...
+Proof verified in 36.03 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7810_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7810_50 circuit has already been generated
+Generating proof...
+Proof generated in 58.37 seconds
+Verifying proof...
+Proof verified in 35.72 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7860_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7860_50 circuit has already been generated
+Generating proof...
+Proof generated in 57.93 seconds
+Verifying proof...
+Proof verified in 36.41 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7910_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7910_50 circuit has already been generated
+Generating proof...
+Proof generated in 58.78 seconds
+Verifying proof...
+Proof verified in 36.4 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_7960_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_7960_50 circuit has already been generated
+Generating proof...
+Proof generated in 58.12 seconds
+Verifying proof...
+Proof verified in 35.67 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8010_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8010_50 circuit has already been generated
+Generating proof...
+Proof generated in 58.14 seconds
+Verifying proof...
+Proof verified in 36.17 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8060_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8060_50 circuit has already been generated
+Generating proof...
+Proof generated in 58.72 seconds
+Verifying proof...
+Proof verified in 36.29 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8110_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8110_50 circuit has already been generated
+Generating proof...
+Proof generated in 59.09 seconds
+Verifying proof...
+Proof verified in 36.57 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8160_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8160_50 circuit has already been generated
+Generating proof...
+Proof generated in 58.89 seconds
+Verifying proof...
+Proof verified in 35.87 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8210_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8210_50 circuit has already been generated
+Generating proof...
+Proof generated in 58.15 seconds
+Verifying proof...
+Proof verified in 36.62 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8260_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8260_50 circuit has already been generated
+Generating proof...
+Proof generated in 59.03 seconds
+Verifying proof...
+Proof verified in 36.66 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8310_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8310_50 circuit has already been generated
+Generating proof...
+Proof generated in 59.53 seconds
+Verifying proof...
+Proof verified in 36.94 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8360_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8360_50 circuit has already been generated
+Generating proof...
+Proof generated in 59.34 seconds
+Verifying proof...
+Proof verified in 37.23 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8410_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8410_50 circuit has already been generated
+Generating proof...
+Proof generated in 60.75 seconds
+Verifying proof...
+Proof verified in 37.42 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8460_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8460_50 circuit has already been generated
+Generating proof...
+Proof generated in 60.27 seconds
+Verifying proof...
+Proof verified in 38.08 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8510_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8510_50 circuit has already been generated
+Generating proof...
+Proof generated in 60.72 seconds
+Verifying proof...
+Proof verified in 37.18 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8560_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8560_50 circuit has already been generated
+Generating proof...
+Proof generated in 59.29 seconds
+Verifying proof...
+Proof verified in 37.22 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8610_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8610_50 circuit has already been generated
+Generating proof...
+Proof generated in 60.2 seconds
+Verifying proof...
+Proof verified in 37.36 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8660_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8660_50 circuit has already been generated
+Generating proof...
+Proof generated in 60.5 seconds
+Verifying proof...
+Proof verified in 37.88 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8710_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8710_50 circuit has already been generated
+Generating proof...
+Proof generated in 61.42 seconds
+Verifying proof...
+Proof verified in 38.61 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8760_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8760_50 circuit has already been generated
+Generating proof...
+Proof generated in 60.66 seconds
+Verifying proof...
+Proof verified in 37.77 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8810_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8810_50 circuit has already been generated
+Generating proof...
+Proof generated in 60.01 seconds
+Verifying proof...
+Proof verified in 37.43 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8860_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8860_50 circuit has already been generated
+Generating proof...
+Proof generated in 61.35 seconds
+Verifying proof...
+Proof verified in 38.11 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8910_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8910_50 circuit has already been generated
+Generating proof...
+Proof generated in 61.65 seconds
+Verifying proof...
+Proof verified in 38.65 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_8960_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_8960_50 circuit has already been generated
+Generating proof...
+Proof generated in 61.89 seconds
+Verifying proof...
+Proof verified in 39.01 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9010_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9010_50 circuit has already been generated
+Generating proof...
+Proof generated in 61.72 seconds
+Verifying proof...
+Proof verified in 38.95 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9060_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9060_50 circuit has already been generated
+Generating proof...
+Proof generated in 62.14 seconds
+Verifying proof...
+Proof verified in 39.13 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9110_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9110_50 circuit has already been generated
+Generating proof...
+Proof generated in 61.39 seconds
+Verifying proof...
+Proof verified in 39.37 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9160_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9160_50 circuit has already been generated
+Generating proof...
+Proof generated in 61.66 seconds
+Verifying proof...
+Proof verified in 40.9 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9210_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9210_50 circuit has already been generated
+Generating proof...
+Proof generated in 61.95 seconds
+Verifying proof...
+Proof verified in 39.71 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9260_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9260_50 circuit has already been generated
+Generating proof...
+Proof generated in 62.43 seconds
+Verifying proof...
+Proof verified in 39.04 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9310_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9310_50 circuit has already been generated
+Generating proof...
+Proof generated in 61.95 seconds
+Verifying proof...
+Proof verified in 39.51 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9360_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9360_50 circuit has already been generated
+Generating proof...
+Proof generated in 62.4 seconds
+Verifying proof...
+Proof verified in 39.04 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9410_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9410_50 circuit has already been generated
+Generating proof...
+Proof generated in 62.08 seconds
+Verifying proof...
+Proof verified in 39.43 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9460_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9460_50 circuit has already been generated
+Generating proof...
+Proof generated in 62.78 seconds
+Verifying proof...
+Proof verified in 39.66 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9510_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9510_50 circuit has already been generated
+Generating proof...
+Proof generated in 63.58 seconds
+Verifying proof...
+Proof verified in 40.73 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9560_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9560_50 circuit has already been generated
+Generating proof...
+Proof generated in 63.82 seconds
+Verifying proof...
+Proof verified in 40.48 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9610_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9610_50 circuit has already been generated
+Generating proof...
+Proof generated in 63.16 seconds
+Verifying proof...
+Proof verified in 40.92 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9660_50.json
+/Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9660_50 circuit has already been generated
+Generating proof...
+Proof generated in 63.5 seconds
+Verifying proof...
+Proof verified in 40.42 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9710_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9710_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9710_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9710_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9710_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9710_50/config.json
+Generating proof...
+Proof generated in 62.73 seconds
+Verifying proof...
+Proof verified in 40.16 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9760_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9760_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9760_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9760_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9760_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9760_50/config.json
+Generating proof...
+Proof generated in 62.87 seconds
+Verifying proof...
+Proof verified in 40.03 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9810_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9810_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9810_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9810_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9810_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9810_50/config.json
+Generating proof...
+Proof generated in 62.74 seconds
+Verifying proof...
+Proof verified in 40.05 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9860_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9860_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9860_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9860_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9860_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9860_50/config.json
+Generating proof...
+Proof generated in 64.54 seconds
+Verifying proof...
+Proof verified in 41.21 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9910_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9910_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9910_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9910_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9910_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9910_50/config.json
+Generating proof...
+Proof generated in 64.88 seconds
+Verifying proof...
+Proof verified in 41.9 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_9960_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9960_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9960_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9960_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9960_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_9960_50/config.json
+Generating proof...
+Proof generated in 63.74 seconds
+Verifying proof...
+Proof verified in 40.91 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_10010_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10010_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10010_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10010_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10010_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10010_50/config.json
+Generating proof...
+Proof generated in 63.98 seconds
+Verifying proof...
+Proof verified in 40.81 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_10060_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10060_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10060_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10060_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10060_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10060_50/config.json
+Generating proof...
+Proof generated in 65.98 seconds
+Verifying proof...
+Proof verified in 91.31 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_10110_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10110_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10110_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10110_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10110_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10110_50/config.json
+Generating proof...
+Proof generated in 64.49 seconds
+Verifying proof...
+Proof verified in 41.38 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_10160_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10160_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10160_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10160_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10160_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10160_50/config.json
+Generating proof...
+Proof generated in 64.24 seconds
+Verifying proof...
+Proof verified in 41.84 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_10210_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10210_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10210_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10210_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10210_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10210_50/config.json
+Generating proof...
+Proof generated in 64.19 seconds
+Verifying proof...
+Proof verified in 41.8 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_10260_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10260_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10260_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10260_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10260_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10260_50/config.json
+Generating proof...
+Proof generated in 65.08 seconds
+Verifying proof...
+Proof verified in 41.4 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_10310_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10310_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10310_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10310_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10310_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10310_50/config.json
+Generating proof...
+Proof generated in 64.31 seconds
+Verifying proof...
+Proof verified in 41.8 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_10360_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10360_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10360_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10360_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10360_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10360_50/config.json
+Generating proof...
+Proof generated in 63.8 seconds
+Verifying proof...
+Proof verified in 41.49 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_10410_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10410_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10410_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10410_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10410_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10410_50/config.json
+Generating proof...
+Proof generated in 64.1 seconds
+Verifying proof...
+Proof verified in 41.62 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_10460_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10460_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10460_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10460_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10460_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10460_50/config.json
+Generating proof...
+Proof generated in 64.8 seconds
+Verifying proof...
+Proof verified in 42.26 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_10510_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10510_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10510_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10510_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10510_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10510_50/config.json
+Generating proof...
+Proof generated in 65.02 seconds
+Verifying proof...
+Proof verified in 42.91 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_10560_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10560_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10560_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10560_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10560_50/info.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10560_50/config.json
+Generating proof...
+Proof generated in 65.0 seconds
+Verifying proof...
+Proof verified in 42.55 seconds
+File saved: /Users/pier/Projects/fact-fortress-circuits/results/times-mac.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/configurations/circuit_16_10610_50.json
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10610_50/Prover.toml
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10610_50/src/data.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10610_50/src/main.nr
+File saved: /Users/pier/Projects/fact-fortress-circuits/performance/circuit_16_10610_50/info.json

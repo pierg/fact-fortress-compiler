@@ -5,8 +5,9 @@
                 "n_additions": 14,
                 "n_multiplications": 11
             },
-            "proving_time": 1.37,
-            "verification_time": 1.05
+            "proving_time": 1.2,
+            "verification_time": 1.05,
+            "proof_size": 2368
         }
     },
     "60": {
@@ -15,8 +16,9 @@
                 "n_additions": 89,
                 "n_multiplications": 61
             },
-            "proving_time": 1.43,
-            "verification_time": 1.22
+            "proving_time": 1.49,
+            "verification_time": 1.29,
+            "proof_size": 2368
         }
     },
     "110": {
@@ -25,8 +27,9 @@
                 "n_additions": 164,
                 "n_multiplications": 111
             },
-            "proving_time": 2.04,
-            "verification_time": 1.51
+            "proving_time": 1.98,
+            "verification_time": 1.42,
+            "proof_size": 2368
         }
     },
     "160": {
@@ -36,7 +39,8 @@
                 "n_multiplications": 161
             },
             "proving_time": 1.92,
-            "verification_time": 1.46
+            "verification_time": 1.47,
+            "proof_size": 2368
         }
     },
     "210": {
@@ -45,8 +49,9 @@
                 "n_additions": 314,
                 "n_multiplications": 211
             },
-            "proving_time": 1.99,
-            "verification_time": 1.5
+            "proving_time": 1.92,
+            "verification_time": 1.39,
+            "proof_size": 2368
         }
     },
     "260": {
@@ -55,8 +60,9 @@
                 "n_additions": 389,
                 "n_multiplications": 261
             },
-            "proving_time": 2.75,
-            "verification_time": 2.0
+            "proving_time": 2.74,
+            "verification_time": 1.95,
+            "proof_size": 2368
         }
     },
     "310": {
@@ -65,8 +71,9 @@
                 "n_additions": 464,
                 "n_multiplications": 311
             },
-            "proving_time": 2.77,
-            "verification_time": 1.98
+            "proving_time": 2.8,
+            "verification_time": 1.96,
+            "proof_size": 2368
         }
     },
     "360": {
@@ -75,8 +82,9 @@
                 "n_additions": 539,
                 "n_multiplications": 361
             },
-            "proving_time": 2.86,
-            "verification_time": 2.02
+            "proving_time": 2.87,
+            "verification_time": 1.88,
+            "proof_size": 2368
         }
     },
     "410": {
@@ -85,8 +93,9 @@
                 "n_additions": 614,
                 "n_multiplications": 411
             },
-            "proving_time": 2.87,
-            "verification_time": 1.96
+            "proving_time": 2.82,
+            "verification_time": 1.92,
+            "proof_size": 2368
         }
     },
     "460": {
@@ -95,8 +104,9 @@
                 "n_additions": 689,
                 "n_multiplications": 461
             },
-            "proving_time": 4.58,
-            "verification_time": 2.9
+            "proving_time": 4.38,
+            "verification_time": 2.85,
+            "proof_size": 2368
         }
     },
     "510": {
@@ -105,8 +115,9 @@
                 "n_additions": 764,
                 "n_multiplications": 511
             },
-            "proving_time": 4.5,
-            "verification_time": 2.86
+            "proving_time": 4.43,
+            "verification_time": 2.91,
+            "proof_size": 2368
         }
     },
     "560": {
@@ -115,8 +126,9 @@
                 "n_additions": 839,
                 "n_multiplications": 561
             },
-            "proving_time": 4.5,
-            "verification_time": 2.9
+            "proving_time": 4.53,
+            "verification_time": 2.94,
+            "proof_size": 2368
         }
     },
     "610": {
@@ -125,8 +137,9 @@
                 "n_additions": 914,
                 "n_multiplications": 611
             },
-            "proving_time": 4.52,
-            "verification_time": 2.88
+            "proving_time": 4.6,
+            "verification_time": 2.89,
+            "proof_size": 2368
         }
     },
     "660": {
@@ -135,8 +148,9 @@
                 "n_additions": 989,
                 "n_multiplications": 661
             },
-            "proving_time": 4.5,
-            "verification_time": 3.03
+            "proving_time": 4.58,
+            "verification_time": 3.06,
+            "proof_size": 2368
         }
     },
     "710": {
@@ -145,8 +159,9 @@
                 "n_additions": 1064,
                 "n_multiplications": 711
             },
-            "proving_time": 4.61,
-            "verification_time": 2.95
+            "proving_time": 4.54,
+            "verification_time": 2.87,
+            "proof_size": 2368
         }
     },
     "760": {
@@ -155,8 +170,9 @@
                 "n_additions": 1139,
                 "n_multiplications": 761
             },
-            "proving_time": 4.55,
-            "verification_time": 3.14
+            "proving_time": 4.52,
+            "verification_time": 2.92,
+            "proof_size": 2368
         }
     },
     "810": {
@@ -165,8 +181,9 @@
                 "n_additions": 1214,
                 "n_multiplications": 811
             },
-            "proving_time": 4.67,
-            "verification_time": 3.01
+            "proving_time": 4.53,
+            "verification_time": 2.93,
+            "proof_size": 2368
         }
     },
     "860": {
@@ -175,8 +192,9 @@
                 "n_additions": 1289,
                 "n_multiplications": 861
             },
-            "proving_time": 4.65,
-            "verification_time": 2.92
+            "proving_time": 4.67,
+            "verification_time": 3.0,
+            "proof_size": 2368
         }
     },
     "910": {
@@ -185,8 +203,9 @@
                 "n_additions": 1364,
                 "n_multiplications": 911
             },
-            "proving_time": 4.6,
-            "verification_time": 2.98
+            "proving_time": 4.58,
+            "verification_time": 3.04,
+            "proof_size": 2368
         }
     },
     "960": {
@@ -195,8 +214,9 @@
                 "n_additions": 1439,
                 "n_multiplications": 961
             },
-            "proving_time": 7.66,
-            "verification_time": 4.67
+            "proving_time": 8.15,
+            "verification_time": 4.79,
+            "proof_size": 2368
         }
     },
     "1010": {
@@ -205,8 +225,9 @@
                 "n_additions": 1514,
                 "n_multiplications": 1011
             },
-            "proving_time": 7.75,
-            "verification_time": 4.73
+            "proving_time": 7.99,
+            "verification_time": 5.04,
+            "proof_size": 2368
         }
     },
     "1060": {
@@ -215,8 +236,9 @@
                 "n_additions": 1589,
                 "n_multiplications": 1061
             },
-            "proving_time": 7.74,
-            "verification_time": 4.72
+            "proving_time": 8.02,
+            "verification_time": 4.73,
+            "proof_size": 2368
         }
     },
     "1110": {
@@ -225,8 +247,9 @@
                 "n_additions": 1664,
                 "n_multiplications": 1111
             },
-            "proving_time": 7.76,
-            "verification_time": 4.72
+            "proving_time": 7.83,
+            "verification_time": 4.81,
+            "proof_size": 2368
         }
     },
     "1160": {
@@ -235,8 +258,9 @@
                 "n_additions": 1739,
                 "n_multiplications": 1161
             },
-            "proving_time": 7.79,
-            "verification_time": 4.73
+            "proving_time": 7.84,
+            "verification_time": 4.85,
+            "proof_size": 2368
         }
     },
     "1210": {
@@ -246,7 +270,8 @@
                 "n_multiplications": 1211
             },
             "proving_time": 7.9,
-            "verification_time": 4.8
+            "verification_time": 4.88,
+            "proof_size": 2368
         }
     },
     "1260": {
@@ -255,8 +280,9 @@
                 "n_additions": 1889,
                 "n_multiplications": 1261
             },
-            "proving_time": 7.92,
-            "verification_time": 4.77
+            "proving_time": 8.0,
+            "verification_time": 4.68,
+            "proof_size": 2368
         }
     },
     "1310": {
@@ -265,8 +291,9 @@
                 "n_additions": 1964,
                 "n_multiplications": 1311
             },
-            "proving_time": 7.97,
-            "verification_time": 4.89
+            "proving_time": 7.79,
+            "verification_time": 4.82,
+            "proof_size": 2368
         }
     },
     "1360": {
@@ -275,8 +302,9 @@
                 "n_additions": 2039,
                 "n_multiplications": 1361
             },
-            "proving_time": 8.2,
-            "verification_time": 4.83
+            "proving_time": 7.94,
+            "verification_time": 4.94,
+            "proof_size": 2368
         }
     },
     "1410": {
@@ -285,8 +313,2022 @@
                 "n_additions": 2114,
                 "n_multiplications": 1411
             },
-            "proving_time": 7.87,
-            "verification_time": 4.96
+            "proving_time": 8.05,
+            "verification_time": 4.9,
+            "proof_size": 2368
+        }
+    },
+    "1460": {
+        "mac": {
+            "info": {
+                "n_additions": 2189,
+                "n_multiplications": 1461
+            },
+            "proving_time": 8.1,
+            "verification_time": 5.0,
+            "proof_size": 2368
+        }
+    },
+    "1510": {
+        "mac": {
+            "info": {
+                "n_additions": 2264,
+                "n_multiplications": 1511
+            },
+            "proving_time": 8.04,
+            "verification_time": 4.92,
+            "proof_size": 2368
+        }
+    },
+    "1560": {
+        "mac": {
+            "info": {
+                "n_additions": 2339,
+                "n_multiplications": 1561
+            },
+            "proving_time": 7.98,
+            "verification_time": 4.99,
+            "proof_size": 2368
+        }
+    },
+    "1610": {
+        "mac": {
+            "info": {
+                "n_additions": 2414,
+                "n_multiplications": 1611
+            },
+            "proving_time": 7.95,
+            "verification_time": 4.9,
+            "proof_size": 2368
+        }
+    },
+    "1660": {
+        "mac": {
+            "info": {
+                "n_additions": 2489,
+                "n_multiplications": 1661
+            },
+            "proving_time": 7.99,
+            "verification_time": 4.93,
+            "proof_size": 2368
+        }
+    },
+    "1710": {
+        "mac": {
+            "info": {
+                "n_additions": 2564,
+                "n_multiplications": 1711
+            },
+            "proving_time": 8.11,
+            "verification_time": 4.93,
+            "proof_size": 2368
+        }
+    },
+    "1760": {
+        "mac": {
+            "info": {
+                "n_additions": 2639,
+                "n_multiplications": 1761
+            },
+            "proving_time": 8.12,
+            "verification_time": 4.89,
+            "proof_size": 2368
+        }
+    },
+    "1810": {
+        "mac": {
+            "info": {
+                "n_additions": 2714,
+                "n_multiplications": 1811
+            },
+            "proving_time": 8.01,
+            "verification_time": 4.99,
+            "proof_size": 2368
+        }
+    },
+    "1860": {
+        "mac": {
+            "info": {
+                "n_additions": 2789,
+                "n_multiplications": 1861
+            },
+            "proving_time": 8.2,
+            "verification_time": 5.03,
+            "proof_size": 2368
+        }
+    },
+    "1910": {
+        "mac": {
+            "info": {
+                "n_additions": 2864,
+                "n_multiplications": 1911
+            },
+            "proving_time": 14.27,
+            "verification_time": 8.25,
+            "proof_size": 2368
+        }
+    },
+    "1960": {
+        "mac": {
+            "info": {
+                "n_additions": 2939,
+                "n_multiplications": 1961
+            },
+            "proving_time": 14.3,
+            "verification_time": 8.42,
+            "proof_size": 2368
+        }
+    },
+    "2010": {
+        "mac": {
+            "info": {
+                "n_additions": 3014,
+                "n_multiplications": 2011
+            },
+            "proving_time": 14.21,
+            "verification_time": 8.41,
+            "proof_size": 2368
+        }
+    },
+    "2060": {
+        "mac": {
+            "info": {
+                "n_additions": 3089,
+                "n_multiplications": 2061
+            },
+            "proving_time": 14.3,
+            "verification_time": 8.39,
+            "proof_size": 2368
+        }
+    },
+    "2110": {
+        "mac": {
+            "info": {
+                "n_additions": 3164,
+                "n_multiplications": 2111
+            },
+            "proving_time": 14.45,
+            "verification_time": 8.81,
+            "proof_size": 2368
+        }
+    },
+    "2160": {
+        "mac": {
+            "info": {
+                "n_additions": 3239,
+                "n_multiplications": 2161
+            },
+            "proving_time": 14.52,
+            "verification_time": 8.55,
+            "proof_size": 2368
+        }
+    },
+    "2210": {
+        "mac": {
+            "info": {
+                "n_additions": 3314,
+                "n_multiplications": 2211
+            },
+            "proving_time": 14.35,
+            "verification_time": 8.6,
+            "proof_size": 2368
+        }
+    },
+    "2260": {
+        "mac": {
+            "info": {
+                "n_additions": 3389,
+                "n_multiplications": 2261
+            },
+            "proving_time": 14.4,
+            "verification_time": 8.6,
+            "proof_size": 2368
+        }
+    },
+    "2310": {
+        "mac": {
+            "info": {
+                "n_additions": 3464,
+                "n_multiplications": 2311
+            },
+            "proving_time": 14.55,
+            "verification_time": 8.53,
+            "proof_size": 2368
+        }
+    },
+    "2360": {
+        "mac": {
+            "info": {
+                "n_additions": 3539,
+                "n_multiplications": 2361
+            },
+            "proving_time": 14.61,
+            "verification_time": 8.55,
+            "proof_size": 2368
+        }
+    },
+    "2410": {
+        "mac": {
+            "info": {
+                "n_additions": 3614,
+                "n_multiplications": 2411
+            },
+            "proving_time": 14.57,
+            "verification_time": 8.69,
+            "proof_size": 2368
+        }
+    },
+    "2460": {
+        "mac": {
+            "info": {
+                "n_additions": 3689,
+                "n_multiplications": 2461
+            },
+            "proving_time": 14.45,
+            "verification_time": 8.54,
+            "proof_size": 2368
+        }
+    },
+    "2510": {
+        "mac": {
+            "info": {
+                "n_additions": 3764,
+                "n_multiplications": 2511
+            },
+            "proving_time": 14.31,
+            "verification_time": 8.75,
+            "proof_size": 2368
+        }
+    },
+    "2560": {
+        "mac": {
+            "info": {
+                "n_additions": 3839,
+                "n_multiplications": 2561
+            },
+            "proving_time": 14.72,
+            "verification_time": 8.95,
+            "proof_size": 2368
+        }
+    },
+    "2610": {
+        "mac": {
+            "info": {
+                "n_additions": 3914,
+                "n_multiplications": 2611
+            },
+            "proving_time": 15.0,
+            "verification_time": 8.68,
+            "proof_size": 2368
+        }
+    },
+    "2660": {
+        "mac": {
+            "info": {
+                "n_additions": 3989,
+                "n_multiplications": 2661
+            },
+            "proving_time": 14.49,
+            "verification_time": 8.67,
+            "proof_size": 2368
+        }
+    },
+    "2710": {
+        "mac": {
+            "info": {
+                "n_additions": 4064,
+                "n_multiplications": 2711
+            },
+            "proving_time": 14.61,
+            "verification_time": 8.75,
+            "proof_size": 2368
+        }
+    },
+    "2760": {
+        "mac": {
+            "info": {
+                "n_additions": 4139,
+                "n_multiplications": 2761
+            },
+            "proving_time": 14.67,
+            "verification_time": 8.8,
+            "proof_size": 2368
+        }
+    },
+    "2810": {
+        "mac": {
+            "info": {
+                "n_additions": 4214,
+                "n_multiplications": 2811
+            },
+            "proving_time": 14.88,
+            "verification_time": 9.05,
+            "proof_size": 2368
+        }
+    },
+    "2860": {
+        "mac": {
+            "info": {
+                "n_additions": 4289,
+                "n_multiplications": 2861
+            },
+            "proving_time": 14.86,
+            "verification_time": 8.89,
+            "proof_size": 2368
+        }
+    },
+    "2910": {
+        "mac": {
+            "info": {
+                "n_additions": 4364,
+                "n_multiplications": 2911
+            },
+            "proving_time": 14.9,
+            "verification_time": 9.02,
+            "proof_size": 2368
+        }
+    },
+    "2960": {
+        "mac": {
+            "info": {
+                "n_additions": 4439,
+                "n_multiplications": 2961
+            },
+            "proving_time": 14.99,
+            "verification_time": 9.04,
+            "proof_size": 2368
+        }
+    },
+    "3010": {
+        "mac": {
+            "info": {
+                "n_additions": 4514,
+                "n_multiplications": 3011
+            },
+            "proving_time": 14.94,
+            "verification_time": 9.04,
+            "proof_size": 2368
+        }
+    },
+    "3060": {
+        "mac": {
+            "info": {
+                "n_additions": 4589,
+                "n_multiplications": 3061
+            },
+            "proving_time": 14.95,
+            "verification_time": 9.02,
+            "proof_size": 2368
+        }
+    },
+    "3110": {
+        "mac": {
+            "info": {
+                "n_additions": 4664,
+                "n_multiplications": 3111
+            },
+            "proving_time": 14.93,
+            "verification_time": 9.18,
+            "proof_size": 2368
+        }
+    },
+    "3160": {
+        "mac": {
+            "info": {
+                "n_additions": 4739,
+                "n_multiplications": 3161
+            },
+            "proving_time": 14.99,
+            "verification_time": 9.11,
+            "proof_size": 2368
+        }
+    },
+    "3210": {
+        "mac": {
+            "info": {
+                "n_additions": 4814,
+                "n_multiplications": 3211
+            },
+            "proving_time": 14.9,
+            "verification_time": 9.09,
+            "proof_size": 2368
+        }
+    },
+    "3260": {
+        "mac": {
+            "info": {
+                "n_additions": 4889,
+                "n_multiplications": 3261
+            },
+            "proving_time": 15.03,
+            "verification_time": 9.15,
+            "proof_size": 2368
+        }
+    },
+    "3310": {
+        "mac": {
+            "info": {
+                "n_additions": 4964,
+                "n_multiplications": 3311
+            },
+            "proving_time": 14.95,
+            "verification_time": 9.21,
+            "proof_size": 2368
+        }
+    },
+    "3360": {
+        "mac": {
+            "info": {
+                "n_additions": 5039,
+                "n_multiplications": 3361
+            },
+            "proving_time": 15.11,
+            "verification_time": 9.29,
+            "proof_size": 2368
+        }
+    },
+    "3410": {
+        "mac": {
+            "info": {
+                "n_additions": 5114,
+                "n_multiplications": 3411
+            },
+            "proving_time": 15.21,
+            "verification_time": 9.3,
+            "proof_size": 2368
+        }
+    },
+    "3460": {
+        "mac": {
+            "info": {
+                "n_additions": 5189,
+                "n_multiplications": 3461
+            },
+            "proving_time": 15.19,
+            "verification_time": 9.31,
+            "proof_size": 2368
+        }
+    },
+    "3510": {
+        "mac": {
+            "info": {
+                "n_additions": 5264,
+                "n_multiplications": 3511
+            },
+            "proving_time": 15.19,
+            "verification_time": 9.39,
+            "proof_size": 2368
+        }
+    },
+    "3560": {
+        "mac": {
+            "info": {
+                "n_additions": 5339,
+                "n_multiplications": 3561
+            },
+            "proving_time": 15.33,
+            "verification_time": 9.48,
+            "proof_size": 2368
+        }
+    },
+    "3610": {
+        "mac": {
+            "info": {
+                "n_additions": 5414,
+                "n_multiplications": 3611
+            },
+            "proving_time": 15.39,
+            "verification_time": 9.51,
+            "proof_size": 2368
+        }
+    },
+    "3660": {
+        "mac": {
+            "info": {
+                "n_additions": 5489,
+                "n_multiplications": 3661
+            },
+            "proving_time": 15.44,
+            "verification_time": 9.49,
+            "proof_size": 2368
+        }
+    },
+    "3710": {
+        "mac": {
+            "info": {
+                "n_additions": 5564,
+                "n_multiplications": 3711
+            },
+            "proving_time": 15.46,
+            "verification_time": 9.54,
+            "proof_size": 2368
+        }
+    },
+    "3760": {
+        "mac": {
+            "info": {
+                "n_additions": 5639,
+                "n_multiplications": 3761
+            },
+            "proving_time": 15.47,
+            "verification_time": 9.59,
+            "proof_size": 2368
+        }
+    },
+    "3810": {
+        "mac": {
+            "info": {
+                "n_additions": 5714,
+                "n_multiplications": 3811
+            },
+            "proving_time": 15.75,
+            "verification_time": 9.68,
+            "proof_size": 2368
+        }
+    },
+    "3860": {
+        "mac": {
+            "info": {
+                "n_additions": 5789,
+                "n_multiplications": 3861
+            },
+            "proving_time": 27.18,
+            "verification_time": 15.99,
+            "proof_size": 2368
+        }
+    },
+    "3910": {
+        "mac": {
+            "info": {
+                "n_additions": 5864,
+                "n_multiplications": 3911
+            },
+            "proving_time": 27.66,
+            "verification_time": 16.15,
+            "proof_size": 2368
+        }
+    },
+    "3960": {
+        "mac": {
+            "info": {
+                "n_additions": 5939,
+                "n_multiplications": 3961
+            },
+            "proving_time": 27.93,
+            "verification_time": 16.21,
+            "proof_size": 2368
+        }
+    },
+    "4010": {
+        "mac": {
+            "info": {
+                "n_additions": 6014,
+                "n_multiplications": 4011
+            },
+            "proving_time": 27.93,
+            "verification_time": 16.67,
+            "proof_size": 2368
+        }
+    },
+    "4060": {
+        "mac": {
+            "info": {
+                "n_additions": 6089,
+                "n_multiplications": 4061
+            },
+            "proving_time": 27.87,
+            "verification_time": 16.57,
+            "proof_size": 2368
+        }
+    },
+    "4110": {
+        "mac": {
+            "info": {
+                "n_additions": 6164,
+                "n_multiplications": 4111
+            },
+            "proving_time": 27.8,
+            "verification_time": 16.4,
+            "proof_size": 2368
+        }
+    },
+    "4160": {
+        "mac": {
+            "info": {
+                "n_additions": 6239,
+                "n_multiplications": 4161
+            },
+            "proving_time": 28.07,
+            "verification_time": 16.51,
+            "proof_size": 2368
+        }
+    },
+    "4210": {
+        "mac": {
+            "info": {
+                "n_additions": 6314,
+                "n_multiplications": 4211
+            },
+            "proving_time": 28.16,
+            "verification_time": 17.04,
+            "proof_size": 2368
+        }
+    },
+    "4260": {
+        "mac": {
+            "info": {
+                "n_additions": 6389,
+                "n_multiplications": 4261
+            },
+            "proving_time": 28.23,
+            "verification_time": 16.67,
+            "proof_size": 2368
+        }
+    },
+    "4310": {
+        "mac": {
+            "info": {
+                "n_additions": 6464,
+                "n_multiplications": 4311
+            },
+            "proving_time": 28.14,
+            "verification_time": 16.8,
+            "proof_size": 2368
+        }
+    },
+    "4360": {
+        "mac": {
+            "info": {
+                "n_additions": 6539,
+                "n_multiplications": 4361
+            },
+            "proving_time": 28.08,
+            "verification_time": 16.69,
+            "proof_size": 2368
+        }
+    },
+    "4410": {
+        "mac": {
+            "info": {
+                "n_additions": 6614,
+                "n_multiplications": 4411
+            },
+            "proving_time": 28.12,
+            "verification_time": 16.79,
+            "proof_size": 2368
+        }
+    },
+    "4460": {
+        "mac": {
+            "info": {
+                "n_additions": 6689,
+                "n_multiplications": 4461
+            },
+            "proving_time": 28.01,
+            "verification_time": 16.89,
+            "proof_size": 2368
+        }
+    },
+    "4510": {
+        "mac": {
+            "info": {
+                "n_additions": 6764,
+                "n_multiplications": 4511
+            },
+            "proving_time": 28.18,
+            "verification_time": 16.96,
+            "proof_size": 2368
+        }
+    },
+    "4560": {
+        "mac": {
+            "info": {
+                "n_additions": 6839,
+                "n_multiplications": 4561
+            },
+            "proving_time": 28.21,
+            "verification_time": 16.82,
+            "proof_size": 2368
+        }
+    },
+    "4610": {
+        "mac": {
+            "info": {
+                "n_additions": 6914,
+                "n_multiplications": 4611
+            },
+            "proving_time": 28.05,
+            "verification_time": 16.99,
+            "proof_size": 2368
+        }
+    },
+    "4660": {
+        "mac": {
+            "info": {
+                "n_additions": 6989,
+                "n_multiplications": 4661
+            },
+            "proving_time": 28.53,
+            "verification_time": 17.05,
+            "proof_size": 2368
+        }
+    },
+    "4710": {
+        "mac": {
+            "info": {
+                "n_additions": 7064,
+                "n_multiplications": 4711
+            },
+            "proving_time": 28.64,
+            "verification_time": 17.14,
+            "proof_size": 2368
+        }
+    },
+    "4760": {
+        "mac": {
+            "info": {
+                "n_additions": 7139,
+                "n_multiplications": 4761
+            },
+            "proving_time": 28.15,
+            "verification_time": 16.95,
+            "proof_size": 2368
+        }
+    },
+    "4810": {
+        "mac": {
+            "info": {
+                "n_additions": 7214,
+                "n_multiplications": 4811
+            },
+            "proving_time": 28.88,
+            "verification_time": 17.27,
+            "proof_size": 2368
+        }
+    },
+    "4860": {
+        "mac": {
+            "info": {
+                "n_additions": 7289,
+                "n_multiplications": 4861
+            },
+            "proving_time": 29.02,
+            "verification_time": 17.34,
+            "proof_size": 2368
+        }
+    },
+    "4910": {
+        "mac": {
+            "info": {
+                "n_additions": 7364,
+                "n_multiplications": 4911
+            },
+            "proving_time": 29.19,
+            "verification_time": 17.44,
+            "proof_size": 2368
+        }
+    },
+    "4960": {
+        "mac": {
+            "info": {
+                "n_additions": 7439,
+                "n_multiplications": 4961
+            },
+            "proving_time": 28.77,
+            "verification_time": 17.36,
+            "proof_size": 2368
+        }
+    },
+    "5010": {
+        "mac": {
+            "info": {
+                "n_additions": 7514,
+                "n_multiplications": 5011
+            },
+            "proving_time": 29.08,
+            "verification_time": 17.56,
+            "proof_size": 2368
+        }
+    },
+    "5060": {
+        "mac": {
+            "info": {
+                "n_additions": 7589,
+                "n_multiplications": 5061
+            },
+            "proving_time": 29.28,
+            "verification_time": 17.7,
+            "proof_size": 2368
+        }
+    },
+    "5110": {
+        "mac": {
+            "info": {
+                "n_additions": 7664,
+                "n_multiplications": 5111
+            },
+            "proving_time": 29.47,
+            "verification_time": 18.12,
+            "proof_size": 2368
+        }
+    },
+    "5160": {
+        "mac": {
+            "info": {
+                "n_additions": 7739,
+                "n_multiplications": 5161
+            },
+            "proving_time": 29.22,
+            "verification_time": 17.8,
+            "proof_size": 2368
+        }
+    },
+    "5210": {
+        "mac": {
+            "info": {
+                "n_additions": 7814,
+                "n_multiplications": 5211
+            },
+            "proving_time": 29.43,
+            "verification_time": 17.86,
+            "proof_size": 2368
+        }
+    },
+    "5260": {
+        "mac": {
+            "info": {
+                "n_additions": 7889,
+                "n_multiplications": 5261
+            },
+            "proving_time": 29.4,
+            "verification_time": 17.81,
+            "proof_size": 2368
+        }
+    },
+    "5310": {
+        "mac": {
+            "info": {
+                "n_additions": 7964,
+                "n_multiplications": 5311
+            },
+            "proving_time": 29.37,
+            "verification_time": 17.88,
+            "proof_size": 2368
+        }
+    },
+    "5360": {
+        "mac": {
+            "info": {
+                "n_additions": 8039,
+                "n_multiplications": 5361
+            },
+            "proving_time": 29.47,
+            "verification_time": 18.03,
+            "proof_size": 2368
+        }
+    },
+    "5410": {
+        "mac": {
+            "info": {
+                "n_additions": 8114,
+                "n_multiplications": 5411
+            },
+            "proving_time": 29.6,
+            "verification_time": 18.11,
+            "proof_size": 2368
+        }
+    },
+    "5460": {
+        "mac": {
+            "info": {
+                "n_additions": 8189,
+                "n_multiplications": 5461
+            },
+            "proving_time": 29.4,
+            "verification_time": 18.18,
+            "proof_size": 2368
+        }
+    },
+    "5510": {
+        "mac": {
+            "info": {
+                "n_additions": 8264,
+                "n_multiplications": 5511
+            },
+            "proving_time": 29.61,
+            "verification_time": 18.27,
+            "proof_size": 2368
+        }
+    },
+    "5560": {
+        "mac": {
+            "info": {
+                "n_additions": 8339,
+                "n_multiplications": 5561
+            },
+            "proving_time": 29.73,
+            "verification_time": 18.71,
+            "proof_size": 2368
+        }
+    },
+    "5610": {
+        "mac": {
+            "info": {
+                "n_additions": 8414,
+                "n_multiplications": 5611
+            },
+            "proving_time": 29.83,
+            "verification_time": 18.51,
+            "proof_size": 2368
+        }
+    },
+    "5660": {
+        "mac": {
+            "info": {
+                "n_additions": 8489,
+                "n_multiplications": 5661
+            },
+            "proving_time": 29.79,
+            "verification_time": 18.41,
+            "proof_size": 2368
+        }
+    },
+    "5710": {
+        "mac": {
+            "info": {
+                "n_additions": 8564,
+                "n_multiplications": 5711
+            },
+            "proving_time": 29.92,
+            "verification_time": 18.78,
+            "proof_size": 2368
+        }
+    },
+    "5760": {
+        "mac": {
+            "info": {
+                "n_additions": 8639,
+                "n_multiplications": 5761
+            },
+            "proving_time": 30.16,
+            "verification_time": 18.59,
+            "proof_size": 2368
+        }
+    },
+    "5810": {
+        "mac": {
+            "info": {
+                "n_additions": 8714,
+                "n_multiplications": 5811
+            },
+            "proving_time": 30.18,
+            "verification_time": 18.47,
+            "proof_size": 2368
+        }
+    },
+    "5860": {
+        "mac": {
+            "info": {
+                "n_additions": 8789,
+                "n_multiplications": 5861
+            },
+            "proving_time": 30.35,
+            "verification_time": 18.63,
+            "proof_size": 2368
+        }
+    },
+    "5910": {
+        "mac": {
+            "info": {
+                "n_additions": 8864,
+                "n_multiplications": 5911
+            },
+            "proving_time": 30.12,
+            "verification_time": 18.89,
+            "proof_size": 2368
+        }
+    },
+    "5960": {
+        "mac": {
+            "info": {
+                "n_additions": 8939,
+                "n_multiplications": 5961
+            },
+            "proving_time": 30.34,
+            "verification_time": 19.05,
+            "proof_size": 2368
+        }
+    },
+    "6010": {
+        "mac": {
+            "info": {
+                "n_additions": 9014,
+                "n_multiplications": 6011
+            },
+            "proving_time": 30.34,
+            "verification_time": 18.9,
+            "proof_size": 2368
+        }
+    },
+    "6060": {
+        "mac": {
+            "info": {
+                "n_additions": 9089,
+                "n_multiplications": 6061
+            },
+            "proving_time": 30.33,
+            "verification_time": 19.18,
+            "proof_size": 2368
+        }
+    },
+    "6110": {
+        "mac": {
+            "info": {
+                "n_additions": 9164,
+                "n_multiplications": 6111
+            },
+            "proving_time": 30.41,
+            "verification_time": 18.95,
+            "proof_size": 2368
+        }
+    },
+    "6160": {
+        "mac": {
+            "info": {
+                "n_additions": 9239,
+                "n_multiplications": 6161
+            },
+            "proving_time": 30.58,
+            "verification_time": 19.32,
+            "proof_size": 2368
+        }
+    },
+    "6210": {
+        "mac": {
+            "info": {
+                "n_additions": 9314,
+                "n_multiplications": 6211
+            },
+            "proving_time": 30.4,
+            "verification_time": 19.12,
+            "proof_size": 2368
+        }
+    },
+    "6260": {
+        "mac": {
+            "info": {
+                "n_additions": 9389,
+                "n_multiplications": 6261
+            },
+            "proving_time": 30.72,
+            "verification_time": 19.44,
+            "proof_size": 2368
+        }
+    },
+    "6310": {
+        "mac": {
+            "info": {
+                "n_additions": 9464,
+                "n_multiplications": 6311
+            },
+            "proving_time": 30.95,
+            "verification_time": 19.77,
+            "proof_size": 2368
+        }
+    },
+    "6360": {
+        "mac": {
+            "info": {
+                "n_additions": 9539,
+                "n_multiplications": 6361
+            },
+            "proving_time": 31.2,
+            "verification_time": 19.74,
+            "proof_size": 2368
+        }
+    },
+    "6410": {
+        "mac": {
+            "info": {
+                "n_additions": 9614,
+                "n_multiplications": 6411
+            },
+            "proving_time": 30.82,
+            "verification_time": 19.54,
+            "proof_size": 2368
+        }
+    },
+    "6460": {
+        "mac": {
+            "info": {
+                "n_additions": 9689,
+                "n_multiplications": 6461
+            },
+            "proving_time": 31.13,
+            "verification_time": 19.81,
+            "proof_size": 2368
+        }
+    },
+    "6510": {
+        "mac": {
+            "info": {
+                "n_additions": 9764,
+                "n_multiplications": 6511
+            },
+            "proving_time": 31.33,
+            "verification_time": 20.04,
+            "proof_size": 2368
+        }
+    },
+    "6560": {
+        "mac": {
+            "info": {
+                "n_additions": 9839,
+                "n_multiplications": 6561
+            },
+            "proving_time": 30.94,
+            "verification_time": 19.88,
+            "proof_size": 2368
+        }
+    },
+    "6610": {
+        "mac": {
+            "info": {
+                "n_additions": 9914,
+                "n_multiplications": 6611
+            },
+            "proving_time": 31.24,
+            "verification_time": 19.75,
+            "proof_size": 2368
+        }
+    },
+    "6660": {
+        "mac": {
+            "info": {
+                "n_additions": 9989,
+                "n_multiplications": 6661
+            },
+            "proving_time": 31.87,
+            "verification_time": 19.9,
+            "proof_size": 2368
+        }
+    },
+    "6710": {
+        "mac": {
+            "info": {
+                "n_additions": 10064,
+                "n_multiplications": 6711
+            },
+            "proving_time": 31.59,
+            "verification_time": 20.1,
+            "proof_size": 2368
+        }
+    },
+    "6760": {
+        "mac": {
+            "info": {
+                "n_additions": 10139,
+                "n_multiplications": 6761
+            },
+            "proving_time": 31.32,
+            "verification_time": 20.49,
+            "proof_size": 2368
+        }
+    },
+    "6810": {
+        "mac": {
+            "info": {
+                "n_additions": 10214,
+                "n_multiplications": 6811
+            },
+            "proving_time": 31.4,
+            "verification_time": 20.38,
+            "proof_size": 2368
+        }
+    },
+    "6860": {
+        "mac": {
+            "info": {
+                "n_additions": 10289,
+                "n_multiplications": 6861
+            },
+            "proving_time": 32.2,
+            "verification_time": 20.55,
+            "proof_size": 2368
+        }
+    },
+    "6910": {
+        "mac": {
+            "info": {
+                "n_additions": 10364,
+                "n_multiplications": 6911
+            },
+            "proving_time": 31.89,
+            "verification_time": 21.05,
+            "proof_size": 2368
+        }
+    },
+    "6960": {
+        "mac": {
+            "info": {
+                "n_additions": 10439,
+                "n_multiplications": 6961
+            },
+            "proving_time": 32.38,
+            "verification_time": 20.79,
+            "proof_size": 2368
+        }
+    },
+    "7010": {
+        "mac": {
+            "info": {
+                "n_additions": 10514,
+                "n_multiplications": 7011
+            },
+            "proving_time": 32.85,
+            "verification_time": 20.66,
+            "proof_size": 2368
+        }
+    },
+    "7060": {
+        "mac": {
+            "info": {
+                "n_additions": 10589,
+                "n_multiplications": 7061
+            },
+            "proving_time": 31.52,
+            "verification_time": 20.34,
+            "proof_size": 2368
+        }
+    },
+    "7110": {
+        "mac": {
+            "info": {
+                "n_additions": 10664,
+                "n_multiplications": 7111
+            },
+            "proving_time": 31.77,
+            "verification_time": 20.77,
+            "proof_size": 2368
+        }
+    },
+    "7160": {
+        "mac": {
+            "info": {
+                "n_additions": 10739,
+                "n_multiplications": 7161
+            },
+            "proving_time": 32.61,
+            "verification_time": 21.04,
+            "proof_size": 2368
+        }
+    },
+    "7210": {
+        "mac": {
+            "info": {
+                "n_additions": 10814,
+                "n_multiplications": 7211
+            },
+            "proving_time": 32.29,
+            "verification_time": 21.01,
+            "proof_size": 2368
+        }
+    },
+    "7260": {
+        "mac": {
+            "info": {
+                "n_additions": 10889,
+                "n_multiplications": 7261
+            },
+            "proving_time": 33.27,
+            "verification_time": 21.48,
+            "proof_size": 2368
+        }
+    },
+    "7310": {
+        "mac": {
+            "info": {
+                "n_additions": 10964,
+                "n_multiplications": 7311
+            },
+            "proving_time": 33.22,
+            "verification_time": 21.48,
+            "proof_size": 2368
+        }
+    },
+    "7360": {
+        "mac": {
+            "info": {
+                "n_additions": 11039,
+                "n_multiplications": 7361
+            },
+            "proving_time": 32.26,
+            "verification_time": 21.06,
+            "proof_size": 2368
+        }
+    },
+    "7410": {
+        "mac": {
+            "info": {
+                "n_additions": 11114,
+                "n_multiplications": 7411
+            },
+            "proving_time": 32.41,
+            "verification_time": 21.04,
+            "proof_size": 2368
+        }
+    },
+    "7460": {
+        "mac": {
+            "info": {
+                "n_additions": 11189,
+                "n_multiplications": 7461
+            },
+            "proving_time": 32.73,
+            "verification_time": 21.62,
+            "proof_size": 2368
+        }
+    },
+    "7510": {
+        "mac": {
+            "info": {
+                "n_additions": 11264,
+                "n_multiplications": 7511
+            },
+            "proving_time": 33.71,
+            "verification_time": 22.26,
+            "proof_size": 2368
+        }
+    },
+    "7560": {
+        "mac": {
+            "info": {
+                "n_additions": 11339,
+                "n_multiplications": 7561
+            },
+            "proving_time": 33.13,
+            "verification_time": 21.88,
+            "proof_size": 2368
+        }
+    },
+    "7610": {
+        "mac": {
+            "info": {
+                "n_additions": 11414,
+                "n_multiplications": 7611
+            },
+            "proving_time": 33.26,
+            "verification_time": 21.75,
+            "proof_size": 2368
+        }
+    },
+    "7660": {
+        "mac": {
+            "info": {
+                "n_additions": 11489,
+                "n_multiplications": 7661
+            },
+            "proving_time": 33.04,
+            "verification_time": 21.53,
+            "proof_size": 2368
+        }
+    },
+    "7710": {
+        "mac": {
+            "info": {
+                "n_additions": 11564,
+                "n_multiplications": 7711
+            },
+            "proving_time": 58.41,
+            "verification_time": 35.86,
+            "proof_size": 2368
+        }
+    },
+    "7760": {
+        "mac": {
+            "info": {
+                "n_additions": 11639,
+                "n_multiplications": 7761
+            },
+            "proving_time": 59.64,
+            "verification_time": 36.03,
+            "proof_size": 2368
+        }
+    },
+    "7810": {
+        "mac": {
+            "info": {
+                "n_additions": 11714,
+                "n_multiplications": 7811
+            },
+            "proving_time": 58.37,
+            "verification_time": 35.72,
+            "proof_size": 2368
+        }
+    },
+    "7860": {
+        "mac": {
+            "info": {
+                "n_additions": 11789,
+                "n_multiplications": 7861
+            },
+            "proving_time": 57.93,
+            "verification_time": 36.41,
+            "proof_size": 2368
+        }
+    },
+    "7910": {
+        "mac": {
+            "info": {
+                "n_additions": 11864,
+                "n_multiplications": 7911
+            },
+            "proving_time": 58.78,
+            "verification_time": 36.4,
+            "proof_size": 2368
+        }
+    },
+    "7960": {
+        "mac": {
+            "info": {
+                "n_additions": 11939,
+                "n_multiplications": 7961
+            },
+            "proving_time": 58.12,
+            "verification_time": 35.67,
+            "proof_size": 2368
+        }
+    },
+    "8010": {
+        "mac": {
+            "info": {
+                "n_additions": 12014,
+                "n_multiplications": 8011
+            },
+            "proving_time": 58.14,
+            "verification_time": 36.17,
+            "proof_size": 2368
+        }
+    },
+    "8060": {
+        "mac": {
+            "info": {
+                "n_additions": 12089,
+                "n_multiplications": 8061
+            },
+            "proving_time": 58.72,
+            "verification_time": 36.29,
+            "proof_size": 2368
+        }
+    },
+    "8110": {
+        "mac": {
+            "info": {
+                "n_additions": 12164,
+                "n_multiplications": 8111
+            },
+            "proving_time": 59.09,
+            "verification_time": 36.57,
+            "proof_size": 2368
+        }
+    },
+    "8160": {
+        "mac": {
+            "info": {
+                "n_additions": 12239,
+                "n_multiplications": 8161
+            },
+            "proving_time": 58.89,
+            "verification_time": 35.87,
+            "proof_size": 2368
+        }
+    },
+    "8210": {
+        "mac": {
+            "info": {
+                "n_additions": 12314,
+                "n_multiplications": 8211
+            },
+            "proving_time": 58.15,
+            "verification_time": 36.62,
+            "proof_size": 2368
+        }
+    },
+    "8260": {
+        "mac": {
+            "info": {
+                "n_additions": 12389,
+                "n_multiplications": 8261
+            },
+            "proving_time": 59.03,
+            "verification_time": 36.66,
+            "proof_size": 2368
+        }
+    },
+    "8310": {
+        "mac": {
+            "info": {
+                "n_additions": 12464,
+                "n_multiplications": 8311
+            },
+            "proving_time": 59.53,
+            "verification_time": 36.94,
+            "proof_size": 2368
+        }
+    },
+    "8360": {
+        "mac": {
+            "info": {
+                "n_additions": 12539,
+                "n_multiplications": 8361
+            },
+            "proving_time": 59.34,
+            "verification_time": 37.23,
+            "proof_size": 2368
+        }
+    },
+    "8410": {
+        "mac": {
+            "info": {
+                "n_additions": 12614,
+                "n_multiplications": 8411
+            },
+            "proving_time": 60.75,
+            "verification_time": 37.42,
+            "proof_size": 2368
+        }
+    },
+    "8460": {
+        "mac": {
+            "info": {
+                "n_additions": 12689,
+                "n_multiplications": 8461
+            },
+            "proving_time": 60.27,
+            "verification_time": 38.08,
+            "proof_size": 2368
+        }
+    },
+    "8510": {
+        "mac": {
+            "info": {
+                "n_additions": 12764,
+                "n_multiplications": 8511
+            },
+            "proving_time": 60.72,
+            "verification_time": 37.18,
+            "proof_size": 2368
+        }
+    },
+    "8560": {
+        "mac": {
+            "info": {
+                "n_additions": 12839,
+                "n_multiplications": 8561
+            },
+            "proving_time": 59.29,
+            "verification_time": 37.22,
+            "proof_size": 2368
+        }
+    },
+    "8610": {
+        "mac": {
+            "info": {
+                "n_additions": 12914,
+                "n_multiplications": 8611
+            },
+            "proving_time": 60.2,
+            "verification_time": 37.36,
+            "proof_size": 2368
+        }
+    },
+    "8660": {
+        "mac": {
+            "info": {
+                "n_additions": 12989,
+                "n_multiplications": 8661
+            },
+            "proving_time": 60.5,
+            "verification_time": 37.88,
+            "proof_size": 2368
+        }
+    },
+    "8710": {
+        "mac": {
+            "info": {
+                "n_additions": 13064,
+                "n_multiplications": 8711
+            },
+            "proving_time": 61.42,
+            "verification_time": 38.61,
+            "proof_size": 2368
+        }
+    },
+    "8760": {
+        "mac": {
+            "info": {
+                "n_additions": 13139,
+                "n_multiplications": 8761
+            },
+            "proving_time": 60.66,
+            "verification_time": 37.77,
+            "proof_size": 2368
+        }
+    },
+    "8810": {
+        "mac": {
+            "info": {
+                "n_additions": 13214,
+                "n_multiplications": 8811
+            },
+            "proving_time": 60.01,
+            "verification_time": 37.43,
+            "proof_size": 2368
+        }
+    },
+    "8860": {
+        "mac": {
+            "info": {
+                "n_additions": 13289,
+                "n_multiplications": 8861
+            },
+            "proving_time": 61.35,
+            "verification_time": 38.11,
+            "proof_size": 2368
+        }
+    },
+    "8910": {
+        "mac": {
+            "info": {
+                "n_additions": 13364,
+                "n_multiplications": 8911
+            },
+            "proving_time": 61.65,
+            "verification_time": 38.65,
+            "proof_size": 2368
+        }
+    },
+    "8960": {
+        "mac": {
+            "info": {
+                "n_additions": 13439,
+                "n_multiplications": 8961
+            },
+            "proving_time": 61.89,
+            "verification_time": 39.01,
+            "proof_size": 2368
+        }
+    },
+    "9010": {
+        "mac": {
+            "info": {
+                "n_additions": 13514,
+                "n_multiplications": 9011
+            },
+            "proving_time": 61.72,
+            "verification_time": 38.95,
+            "proof_size": 2368
+        }
+    },
+    "9060": {
+        "mac": {
+            "info": {
+                "n_additions": 13589,
+                "n_multiplications": 9061
+            },
+            "proving_time": 62.14,
+            "verification_time": 39.13,
+            "proof_size": 2368
+        }
+    },
+    "9110": {
+        "mac": {
+            "info": {
+                "n_additions": 13664,
+                "n_multiplications": 9111
+            },
+            "proving_time": 61.39,
+            "verification_time": 39.37,
+            "proof_size": 2368
+        }
+    },
+    "9160": {
+        "mac": {
+            "info": {
+                "n_additions": 13739,
+                "n_multiplications": 9161
+            },
+            "proving_time": 61.66,
+            "verification_time": 40.9,
+            "proof_size": 2368
+        }
+    },
+    "9210": {
+        "mac": {
+            "info": {
+                "n_additions": 13814,
+                "n_multiplications": 9211
+            },
+            "proving_time": 61.95,
+            "verification_time": 39.71,
+            "proof_size": 2368
+        }
+    },
+    "9260": {
+        "mac": {
+            "info": {
+                "n_additions": 13889,
+                "n_multiplications": 9261
+            },
+            "proving_time": 62.43,
+            "verification_time": 39.04,
+            "proof_size": 2368
+        }
+    },
+    "9310": {
+        "mac": {
+            "info": {
+                "n_additions": 13964,
+                "n_multiplications": 9311
+            },
+            "proving_time": 61.95,
+            "verification_time": 39.51,
+            "proof_size": 2368
+        }
+    },
+    "9360": {
+        "mac": {
+            "info": {
+                "n_additions": 14039,
+                "n_multiplications": 9361
+            },
+            "proving_time": 62.4,
+            "verification_time": 39.04,
+            "proof_size": 2368
+        }
+    },
+    "9410": {
+        "mac": {
+            "info": {
+                "n_additions": 14114,
+                "n_multiplications": 9411
+            },
+            "proving_time": 62.08,
+            "verification_time": 39.43,
+            "proof_size": 2368
+        }
+    },
+    "9460": {
+        "mac": {
+            "info": {
+                "n_additions": 14189,
+                "n_multiplications": 9461
+            },
+            "proving_time": 62.78,
+            "verification_time": 39.66,
+            "proof_size": 2368
+        }
+    },
+    "9510": {
+        "mac": {
+            "info": {
+                "n_additions": 14264,
+                "n_multiplications": 9511
+            },
+            "proving_time": 63.58,
+            "verification_time": 40.73,
+            "proof_size": 2368
+        }
+    },
+    "9560": {
+        "mac": {
+            "info": {
+                "n_additions": 14339,
+                "n_multiplications": 9561
+            },
+            "proving_time": 63.82,
+            "verification_time": 40.48,
+            "proof_size": 2368
+        }
+    },
+    "9610": {
+        "mac": {
+            "info": {
+                "n_additions": 14414,
+                "n_multiplications": 9611
+            },
+            "proving_time": 63.16,
+            "verification_time": 40.92,
+            "proof_size": 2368
+        }
+    },
+    "9660": {
+        "mac": {
+            "info": {
+                "n_additions": 14489,
+                "n_multiplications": 9661
+            },
+            "proving_time": 63.5,
+            "verification_time": 40.42,
+            "proof_size": 2368
+        }
+    },
+    "9710": {
+        "mac": {
+            "info": {
+                "n_additions": 14564,
+                "n_multiplications": 9711
+            },
+            "proving_time": 62.73,
+            "verification_time": 40.16,
+            "proof_size": 2368
+        }
+    },
+    "9760": {
+        "mac": {
+            "info": {
+                "n_additions": 14639,
+                "n_multiplications": 9761
+            },
+            "proving_time": 62.87,
+            "verification_time": 40.03,
+            "proof_size": 2368
+        }
+    },
+    "9810": {
+        "mac": {
+            "info": {
+                "n_additions": 14714,
+                "n_multiplications": 9811
+            },
+            "proving_time": 62.74,
+            "verification_time": 40.05,
+            "proof_size": 2368
+        }
+    },
+    "9860": {
+        "mac": {
+            "info": {
+                "n_additions": 14789,
+                "n_multiplications": 9861
+            },
+            "proving_time": 64.54,
+            "verification_time": 41.21,
+            "proof_size": 2368
+        }
+    },
+    "9910": {
+        "mac": {
+            "info": {
+                "n_additions": 14864,
+                "n_multiplications": 9911
+            },
+            "proving_time": 64.88,
+            "verification_time": 41.9,
+            "proof_size": 2368
+        }
+    },
+    "9960": {
+        "mac": {
+            "info": {
+                "n_additions": 14939,
+                "n_multiplications": 9961
+            },
+            "proving_time": 63.74,
+            "verification_time": 40.91,
+            "proof_size": 2368
+        }
+    },
+    "10010": {
+        "mac": {
+            "info": {
+                "n_additions": 15014,
+                "n_multiplications": 10011
+            },
+            "proving_time": 63.98,
+            "verification_time": 40.81,
+            "proof_size": 2368
+        }
+    },
+    "10060": {
+        "mac": {
+            "info": {
+                "n_additions": 15089,
+                "n_multiplications": 10061
+            },
+            "proving_time": 65.98,
+            "verification_time": 91.31,
+            "proof_size": 2368
+        }
+    },
+    "10110": {
+        "mac": {
+            "info": {
+                "n_additions": 15164,
+                "n_multiplications": 10111
+            },
+            "proving_time": 64.49,
+            "verification_time": 41.38,
+            "proof_size": 2368
+        }
+    },
+    "10160": {
+        "mac": {
+            "info": {
+                "n_additions": 15239,
+                "n_multiplications": 10161
+            },
+            "proving_time": 64.24,
+            "verification_time": 41.84,
+            "proof_size": 2368
+        }
+    },
+    "10210": {
+        "mac": {
+            "info": {
+                "n_additions": 15314,
+                "n_multiplications": 10211
+            },
+            "proving_time": 64.19,
+            "verification_time": 41.8,
+            "proof_size": 2368
+        }
+    },
+    "10260": {
+        "mac": {
+            "info": {
+                "n_additions": 15389,
+                "n_multiplications": 10261
+            },
+            "proving_time": 65.08,
+            "verification_time": 41.4,
+            "proof_size": 2368
+        }
+    },
+    "10310": {
+        "mac": {
+            "info": {
+                "n_additions": 15464,
+                "n_multiplications": 10311
+            },
+            "proving_time": 64.31,
+            "verification_time": 41.8,
+            "proof_size": 2368
+        }
+    },
+    "10360": {
+        "mac": {
+            "info": {
+                "n_additions": 15539,
+                "n_multiplications": 10361
+            },
+            "proving_time": 63.8,
+            "verification_time": 41.49,
+            "proof_size": 2368
+        }
+    },
+    "10410": {
+        "mac": {
+            "info": {
+                "n_additions": 15614,
+                "n_multiplications": 10411
+            },
+            "proving_time": 64.1,
+            "verification_time": 41.62,
+            "proof_size": 2368
+        }
+    },
+    "10460": {
+        "mac": {
+            "info": {
+                "n_additions": 15689,
+                "n_multiplications": 10461
+            },
+            "proving_time": 64.8,
+            "verification_time": 42.26,
+            "proof_size": 2368
+        }
+    },
+    "10510": {
+        "mac": {
+            "info": {
+                "n_additions": 15764,
+                "n_multiplications": 10511
+            },
+            "proving_time": 65.02,
+            "verification_time": 42.91,
+            "proof_size": 2368
+        }
+    },
+    "10560": {
+        "mac": {
+            "info": {
+                "n_additions": 15839,
+                "n_multiplications": 10561
+            },
+            "proving_time": 65.0,
+            "verification_time": 42.55,
+            "proof_size": 2368
         }
     }
 }
