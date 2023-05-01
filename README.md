@@ -30,18 +30,22 @@ nargo prove p
 ```
 
 
-
 ## What is Fact Fortress
 
-Fact Fortress is a framework that combines blockchain technology and zero-knowledge proofs to enable trustworthy and private fact-checking. 
-By leveraging proofs of data provenance and auditable data access policies, we ensure the trustworthiness of how sensitive data is handled, and provide assurance of the computations that have been performed on it.
-In addition, our solution democratizes circuit construction and deployment by providing a circuit compiler that supports various data formats and source authentication, and facilitates the deployment of on-chain verifiers.
+Fact Fortress is a blockchain-based framework that uses zero-knowledge proofs for trustworthy and private fact-checking. It ensures trustworthy data handling and computation by using proofs of data provenance and auditable data access policies. The solution democratizes circuit construction and deployment with a circuit compiler that supports various data formats and source authentication, and facilitates on-chain verification. This preserves sensitive data privacy while ensuring accountability and transparency in data handling and computation. It achieves this by enabling on-chain verification of computation and data provenance without revealing any information about the data itself.
 
-Our framework provides a powerful mechanism for preserving the privacy of sensitive data while ensuring accountability and transparency in the actions taken on the data. By enabling on-chain verification of computation and data provenance without revealing any information about the data itself, our solution ensures the integrity of the computations on the data while preserving its privacy.
+
+Our framework provides a comprehensive solution that covers the entire process from circuit generation to proof generation, while facilitating collaboration among data analysts, data providers, external verifiers, and policy auditors.
+
+
+
+<p align="center">
+  <img src="./docs/end-to-end-500.png" alt="Fact Fortress Overview" width="350"/>
+</p>
+
+
 
 For more information, check out our website at: [https://pierg.github.io/fact-fortress-web/](https://pierg.github.io/fact-fortress-web/).
-
-
 
 
 # Installing and Compiling Circuits
