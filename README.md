@@ -1,13 +1,25 @@
-# fact-fortress-circtuits
+# Fact Fortress Compiler
+<p align="left">
+  <img src="./docs/logo-compiler-500.png" alt="Fact Fortress Logo" width="150"/>
+</p>
 
-Python library facilitate the generation of Zero-Knowledge Proof circuits in [noir](https://noir-lang.org).
 
-The library can compile circuits with various input data sizes and formats.
+This repository contains the code for a Python library that facilitates the generation of Zero-Knowledge Proof circuits in [noir](https://noir-lang.org) with various input data sizes and formats. The circuits compiled come with a ZKP certifying the data provenance and proof of statement.
 
-All the circuits compiled comes with a ZKP certifying the data proverance and consistency.
 
-You can generate and verify proofs on the compiled circuits by navigating to the folder `circuits/YOU_CIRCUIT` and run:
+The library provides clear and abstract APIs that allow users to specify the data format, the function to be performed by the circuit, and the authority that provided the data. It compiles down from Python API to JSON configuration file and ultimately parses the JSON and compiles the fully functioning circuit in Noir.
 
+
+<p align="center">
+  <img src="./docs/compiler-500.png" alt="Circuits Compilation Process" width="700"/>
+</p>
+
+
+This tool aims to increase adoption of zero-knowledge proof (ZKP) frameworks by providing user-friendly interfaces and higher-level abstractions to abstract away the low-level details of arithmetic circuits. It enables easier implementation of ZKP protocols in real-world applications, making it possible for developers with limited experience to implement functions.
+
+Once the circuit is generated, the user can navigate to the generated folder and immediately prove and verify the compiled circuit, without any additional modification on the DSL source code.
+
+To generate and verify proofs on the compiled circuits, navigate to the folder `circuits/YOUR_CIRCUIT` and run:
 
 ```bash
 nargo prove p
@@ -17,9 +29,22 @@ nargo prove p
 nargo prove p
 ```
 
-This library has been used to generate valid circuit for [fact-fortress-dapp](https://github.com/pierg/fact-fortress-dapp)
 
-# Installing
+
+## What is Fact Fortress
+
+Fact Fortress is a framework that combines blockchain technology and zero-knowledge proofs to enable trustworthy and private fact-checking. 
+By leveraging proofs of data provenance and auditable data access policies, we ensure the trustworthiness of how sensitive data is handled, and provide assurance of the computations that have been performed on it.
+In addition, our solution democratizes circuit construction and deployment by providing a circuit compiler that supports various data formats and source authentication, and facilitates the deployment of on-chain verifiers.
+
+Our framework provides a powerful mechanism for preserving the privacy of sensitive data while ensuring accountability and transparency in the actions taken on the data. By enabling on-chain verification of computation and data provenance without revealing any information about the data itself, our solution ensures the integrity of the computations on the data while preserving its privacy.
+
+For more information, check out our website at: [https://pierg.github.io/fact-fortress-web/](https://pierg.github.io/fact-fortress-web/).
+
+
+
+
+# Installing and Compiling Circuits
 
 ## System requirements
 [noir](https://noir-lang.org)
@@ -37,8 +62,24 @@ To install run:
 poetry install
 ```
 
+Clone, install and run backend
+
+```bash
+git clone https://github.com/pierg/fact-fortress-dapp
+```
+
+```bash
+pnpm instll
+```
+
+```bash
+pnpm backend
+```
+
 
 # Example
+
+*Makesure that you have the back-end running (to access sign, hash functions)*
 
 Complete running example: `src/example.py`
 

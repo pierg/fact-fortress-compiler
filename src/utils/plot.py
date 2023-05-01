@@ -1,8 +1,8 @@
 import json
-from pathlib import Path
 import matplotlib.pyplot as plt
-
+from pathlib import Path
 from src.shared import results_path
+import numpy as np
 
 
 def create_performance_graph(input_path: Path, output_path_folder: Path):
@@ -15,6 +15,7 @@ def create_performance_graph(input_path: Path, output_path_folder: Path):
     n_multiplications = []
     n_operations = []
     data_sizes = []
+    folder_ids = []
 
     for element in data:
         proving_times.append(data[element]["mac"]["proving_time"])
@@ -25,27 +26,44 @@ def create_performance_graph(input_path: Path, output_path_folder: Path):
             data[element]["mac"]["info"]["n_additions"]
             + data[element]["mac"]["info"]["n_multiplications"]
         )
+        folder_ids.append(element)
         data_size = (int(element) * 2) * 2 + 2
         data_sizes.append(data_size)
 
-    # create plot 1
     plt.plot(data_sizes, proving_times, label="proving_time")
     plt.plot(data_sizes, verification_times, label="verification_time")
-    plt.xlabel("data size (total number of elements in data vectors)")
-    plt.ylabel("time")
-    plt.legend()
-    plt.savefig(output_path_folder / "plot_1.pdf")
-    plt.clf()
 
-    # create plot 2
-    plt.plot(data_sizes, n_additions, label="n_additions")
-    plt.plot(data_sizes, n_multiplications, label="n_multiplications")
-    plt.plot(data_sizes, n_operations, label="n_operations")
-    plt.xlabel("data size (total number of elements in data vectors)")
-    plt.ylabel("n arithmetic elements")
+    # Compute differences between adjacent values of proving_time and verification_time
+    proving_time_diffs = np.abs(np.diff(proving_times))
+    verification_time_diffs = np.abs(np.diff(verification_times))
+
+    # Compute threshold for detecting abrupt spikes
+    proving_time_threshold = np.mean(proving_time_diffs) + 1
+    verification_time_threshold = np.mean(verification_time_diffs) + 1
+
+    # Find indices of abrupt spikes
+    proving_time_spikes = np.where(proving_time_diffs > proving_time_threshold)[0] + 1
+    verification_time_spikes = (
+        np.where(verification_time_diffs > verification_time_threshold)[0] + 1
+    )
+
+    # Common spikes, common elements between proving_time_spikes and verification_time_spikes
+    spikes = list(set(proving_time_spikes).intersection(verification_time_spikes))
+    print(proving_time_spikes)
+    print(verification_time_spikes)
+    print(spikes)
+    print([folder_ids[s] for s in spikes])
+
+    # Indexes in data_sizes where
+
+    # Plot vertical lines at indices of abrupt spikes
+    for idx in spikes:
+        plt.axvline(x=data_sizes[idx], color="r", linestyle="--")
+
+    plt.xlabel("data size (# of 16 bits integers)")
+    plt.ylabel("time (sec)")
     plt.legend()
-    plt.savefig(output_path_folder / "plot_2.pdf")
-    plt.clf()
+    plt.savefig(output_path_folder / "plot_with_spikes.pdf")
 
 
 create_performance_graph(results_path / "times-mac.json", results_path)
