@@ -1,8 +1,7 @@
 # Fact Fortress Compiler
-<p align="left">
-  <img src="./docs/logo-compiler-500.png" alt="Fact Fortress Logo" width="150"/>
+<p align="center">
+  <img src="./docs/logo-compiler-500.png" alt="Fact Fortress Logo" width="400"/>
 </p>
-
 
 This repository contains the code for a Python library that facilitates the generation of Zero-Knowledge Proof circuits in [noir](https://noir-lang.org) with various input data sizes and formats. The circuits compiled come with a ZKP certifying the data provenance and proof of statement.
 
